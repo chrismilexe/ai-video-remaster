@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 AI视频重制系统 - 控制面板</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 20px 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .header p {
+            color: #888;
+            margin-top: 5px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px 40px;
+        }
+        
+        .workflow-section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .workflow-section h2 {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .workflow-steps {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .workflow-steps::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf, #00d4ff);
+            opacity: 0.3;
+        }
+        
+        .step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            flex: 1;
+        }
+        
+        .step-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin: 0 auto 10px;
+            border: 3px solid rgba(255,255,255,0.2);
+        }
+        
+        .step-title {
+            font-size: 14px;
+            color: #ccc;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        
+        .tool-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(0,212,255,0.3);
+            box-shadow: 0 10px 40px rgba(0,212,255,0.1);
+        }
+        
+        .tool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+        
+        .tool-name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .tool-vram {
+            background: rgba(255,193,7,0.2);
+            color: #ffc107;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .tool-desc {
+            color: #aaa;
+            font-size: 14px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .tool-status {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        
+        .status-dot.installed { background: #4caf50; }
+        .status-dot.not-installed { background: #f44336; }
+        .status-dot.running { background: #00d4ff; animation: pulse 2s infinite; }
+        .status-dot.stopped { background: #666; }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .tool-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+        
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .btn-success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+        
+        .btn-danger {
+            background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+            color: white;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .console {
+            background: rgba(0,0,0,0.5);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+        
+        .console.active {
+            display: block;
+        }
+        
+        .console-line {
+            padding: 2px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .console-time {
+            color: #666;
+            margin-right: 10px;
+        }
+        
+        .console-message {
+            color: #ccc;
+        }
+        
+        .quick-actions {
+            background: rgba(0,212,255,0.05);
+            border: 1px solid rgba(0,212,255,0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .quick-actions h3 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+        }
+        
+        .file-input {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .file-input input[type="text"] {
+            flex: 1;
+            min-width: 300px;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(0,0,0,0.3);
+            color: #fff;
+        }
+        
+        .file-input input[type="file"] {
+            display: none;
+        }
+        
+        .file-label {
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .file-label:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .progress-bar {
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .progress-bar.active {
+            display: block;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            color: white;
+            font-size: 14px;
+            z-index: 1000;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        .toast.success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .toast.error { background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%); }
+        .toast.info { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        
+        .outputs-section {
+            margin-top: 30px;
+        }
+        
+        .file-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .file-item {
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .file-info {
+            overflow: hidden;
+        }
+        
+        .file-name {
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .file-size {
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎬 AI视频重制系统</h1>
+        <p>RTX 4090 本地部署版 | 全流程语音克隆与对口型</p>
+    </div>
+    
+    <div class="container">
+        <!-- 快速工作流 -->
+        <div class="workflow-section">
+            <h2>⚡ 快速工作流</h2>
+            <div class="workflow-steps">
+                <div class="step">
+                    <div class="step-icon">🎤</div>
+                    <div class="step-title">1. 语音转文字</div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">✏️</div>
+                    <div class="step-title">2. 编辑文稿</div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">🗣️</div>
+                    <div class="step-title">3. 声音克隆</div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">👄</div>
+                    <div class="step-title">4. 对口型</div>
+                </div>
+            </div>
+            
+            <div class="quick-actions">
+                <h3>🚀 一键转录</h3>
+                <div class="file-input">
+                    <input type="text" id="videoPath" placeholder="输入视频路径 (如: D:/Videos/course.mp4) 或点击选择文件">
+                    <input type="file" id="videoFile" accept="video/*">
+                    <label for="videoFile" class="file-label">📁 选择文件</label>
+                </div>
+                <div class="file-input">
+                    <select id="modelSelect" style="padding: 10px; border-radius: 6px; background: rgba(0,0,0,0.3); color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                        <option value="large-v3">Whisper Large-V3 (最佳质量)</option>
+                        <option value="large-v3-turbo">Large-V3-Turbo (速度+质量平衡)</option>
+                        <option value="medium">Medium (快速)</option>
+                    </select>
+                    <select id="languageSelect" style="padding: 10px; border-radius: 6px; background: rgba(0,0,0,0.3); color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                        <option value="zh">中文</option>
+                        <option value="en">英文</option>
+                        <option value="ja">日文</option>
+                        <option value="ko">韩文</option>
+                    </select>
+                    <label style="display: flex; align-items: center; gap: 5px; cursor: pointer;">
+                        <input type="checkbox" id="diarizeCheck" checked style="width: 18px; height: 18px;">
+                        <span>说话人分离</span>
+                    </label>
+                </div>
+                <button class="btn btn-primary" onclick="startTranscribe()">
+                    ▶️ 开始转录
+                </button>
+                <div class="progress-bar" id="transcribeProgress">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+            
+            <div class="quick-actions" style="margin-top: 20px;">
+                <h3>🎬 对口型合成</h3>
+                <div class="file-input">
+                    <input type="text" id="videoPathLip" placeholder="原视频路径">
+                    <input type="text" id="audioPathLip" placeholder="新音频路径">
+                </div>
+                <div class="file-input">
+                    <select id="lipToolSelect" style="padding: 10px; border-radius: 6px; background: rgba(0,0,0,0.3); color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                        <option value="musetalk">MuseTalk (实时快速)</option>
+                        <option value="videoretalking">VideoReTalking (高质量慢速)</option>
+                    </select>
+                </div>
+                <button class="btn btn-success" onclick="startLipSync()">
+                    🎥 开始对口型
+                </button>
+            </div>
+        </div>
+        
+        <!-- 工具管理 -->
+        <div class="workflow-section">
+            <h2>🛠️ 工具管理 (4090显存分配)</h2>
+            <div class="tools-grid" id="toolsGrid">
+                <!-- 工具卡片将通过JS动态生成 -->
+            </div>
+        </div>
+        
+        <!-- 输出文件 -->
+        <div class="workflow-section outputs-section">
+            <h2>📁 输出文件</h2>
+            <div class="file-list" id="fileList">
+                <p style="color: #666; text-align: center; padding: 40px;">暂无输出文件</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toast 通知 -->
+    <div class="toast" id="toast"></div>
+    
+    <script>
+        const tools = {{ tools | tojson }};
+        const status = {{ status | tojson }};
+        
+        // 初始化工具卡片
+        function renderTools() {
+            const grid = document.getElementById('toolsGrid');
+            grid.innerHTML = Object.entries(tools).map(([id, tool]) => {
+                const stat = status[id] || {};
+                const isInstalled = stat.installed;
+                const isRunning = stat.running;
+                
+                return `
+                    <div class="tool-card" id="tool-${id}">
+                        <div class="tool-header">
+                            <div class="tool-name">${tool.name}</div>
+                            <span class="tool-vram">⚡ ${tool.vram_gb}GB VRAM</span>
+                        </div>
+                        <div class="tool-desc">${tool.description}</div>
+                        <div class="tool-status">
+                            <div class="status-item">
+                                <span class="status-dot ${isInstalled ? 'installed' : 'not-installed'}"></span>
+                                <span>${isInstalled ? '已安装' : '未安装'}</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-dot ${isRunning ? 'running' : 'stopped'}"></span>
+                                <span>${isRunning ? '运行中' : '已停止'}</span>
+                            </div>
+                            ${tool.port ? `<div class="status-item">📡 端口 ${tool.port}</div>` : ''}
+                        </div>
+                        <div class="tool-actions">
+                            ${!isInstalled ? `
+                                <button class="btn btn-primary" onclick="installTool('${id}')">
+                                    ⬇️ 安装
+                                </button>
+                            ` : ''}
+                            ${isInstalled && !isRunning ? `
+                                <button class="btn btn-success" onclick="startTool('${id}')">
+                                    ▶️ 启动
+                                </button>
+                            ` : ''}
+                            ${isRunning ? `
+                                <button class="btn btn-danger" onclick="stopTool('${id}')">
+                                    ⏹️ 停止
+                                </button>
+                            ` : ''}
+                            ${tool.url ? `
+                                <button class="btn btn-secondary" onclick="openTool('${tool.url}')">
+                                    🔗 打开界面
+                                </button>
+                            ` : ''}
+                            <button class="btn btn-secondary" onclick="toggleConsole('${id}')">
+                                📋 日志
+                            </button>
+                        </div>
+                        <div class="console" id="console-${id}">
+                            <div class="console-line">
+                                <span class="console-time">--:--:--</span>
+                                <span class="console-message">等待操作...</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // 显示Toast
+        function showToast(message, type = 'info') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // 安装工具
+        async function installTool(toolId) {
+            showToast(`开始安装 ${tools[toolId].name}...`, 'info');
+            try {
+                const response = await fetch(`/api/install/${toolId}`, { method: 'POST' });
+                const data = await response.json();
+                showToast(data.message, 'success');
+                addLog(toolId, '开始安装...');
+            } catch (error) {
+                showToast('安装失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 启动工具
+        async function startTool(toolId) {
+            showToast(`启动 ${tools[toolId].name}...`, 'info');
+            try {
+                const response = await fetch(`/api/start/${toolId}`, { method: 'POST' });
+                const data = await response.json();
+                showToast(data.message, 'success');
+                if (data.url) {
+                    setTimeout(() => openTool(data.url), 1000);
+                }
+                refreshStatus();
+            } catch (error) {
+                showToast('启动失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 停止工具
+        async function stopTool(toolId) {
+            showToast(`停止 ${tools[toolId].name}...`, 'info');
+            try {
+                const response = await fetch(`/api/stop/${toolId}`, { method: 'POST' });
+                const data = await response.json();
+                showToast(data.message, 'success');
+                refreshStatus();
+            } catch (error) {
+                showToast('停止失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 打开工具界面
+        function openTool(url) {
+            window.open(url, '_blank');
+        }
+        
+        // 切换日志显示
+        function toggleConsole(toolId) {
+            const console = document.getElementById(`console-${toolId}`);
+            console.classList.toggle('active');
+        }
+        
+        // 添加日志
+        function addLog(toolId, message) {
+            const console = document.getElementById(`console-${toolId}`);
+            const time = new Date().toLocaleTimeString();
+            const line = document.createElement('div');
+            line.className = 'console-line';
+            line.innerHTML = `
+                <span class="console-time">${time}</span>
+                <span class="console-message">${message}</span>
+            `;
+            console.appendChild(line);
+            console.scrollTop = console.scrollHeight;
+        }
+        
+        // 开始转录
+        async function startTranscribe() {
+            const videoPath = document.getElementById('videoPath').value;
+            if (!videoPath) {
+                showToast('请输入视频路径', 'error');
+                return;
+            }
+            
+            const progress = document.getElementById('transcribeProgress');
+            const progressFill = progress.querySelector('.progress-fill');
+            progress.classList.add('active');
+            progressFill.style.width = '10%';
+            
+            showToast('开始转录...', 'info');
+            
+            try {
+                const response = await fetch('/api/transcribe', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        video_path: videoPath,
+                        model: document.getElementById('modelSelect').value,
+                        language: document.getElementById('languageSelect').value,
+                        diarize: document.getElementById('diarizeCheck').checked
+                    })
+                });
+                
+                const data = await response.json();
+                progressFill.style.width = '100%';
+                showToast(data.message, 'success');
+                
+                setTimeout(() => {
+                    progress.classList.remove('active');
+                    progressFill.style.width = '0%';
+                }, 2000);
+                
+                refreshOutputs();
+            } catch (error) {
+                showToast('转录失败: ' + error.message, 'error');
+                progress.classList.remove('active');
+            }
+        }
+        
+        // 开始对口型
+        async function startLipSync() {
+            const videoPath = document.getElementById('videoPathLip').value;
+            const audioPath = document.getElementById('audioPathLip').value;
+            
+            if (!videoPath || !audioPath) {
+                showToast('请输入视频和音频路径', 'error');
+                return;
+            }
+            
+            showToast('开始对嘴型合成...', 'info');
+            
+            try {
+                const response = await fetch('/api/lipsync', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        video_path: videoPath,
+                        audio_path: audioPath,
+                        tool: document.getElementById('lipToolSelect').value
+                    })
+                });
+                
+                const data = await response.json();
+                showToast(data.message + '\n输出: ' + data.output_path, 'success');
+            } catch (error) {
+                showToast('对口型失败: ' + error.message, 'error');
+            }
+        }
+        
+        // 刷新状态
+        async function refreshStatus() {
+            for (const id of Object.keys(tools)) {
+                try {
+                    const response = await fetch(`/api/status/${id}`);
+                    const stat = await response.json();
+                    // 更新UI状态...
+                } catch (e) {}
+            }
+        }
+        
+        // 刷新输出文件
+        async function refreshOutputs() {
+            try {
+                const response = await fetch('/api/outputs');
+                const data = await response.json();
+                const fileList = document.getElementById('fileList');
+                
+                const allFiles = [
+                    ...data.transcripts.map(f => ({...f, type: '转录'})),
+                    ...data.audio.map(f => ({...f, type: '音频'})),
+                    ...data.videos.map(f => ({...f, type: '视频'}))
+                ];
+                
+                if (allFiles.length === 0) {
+                    fileList.innerHTML = '<p style="color: #666; text-align: center; padding: 40px;">暂无输出文件</p>';
+                    return;
+                }
+                
+                fileList.innerHTML = allFiles.map(f => `
+                    <div class="file-item">
+                        <div class="file-info">
+                            <div class="file-name">${f.name}</div>
+                            <div class="file-size">${f.type} | ${(f.size / 1024 / 1024).toFixed(2)} MB</div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="openFile('${f.path}')">
+                            打开
+                        </button>
+                    </div>
+                `).join('');
+            } catch (e) {}
+        }
+        
+        // 文件选择处理
+        document.getElementById('videoFile').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('videoPath').value = file.path || file.name;
+            }
+        });
+        
+        // Socket.IO 实时日志
+        const socket = io();
+        Object.keys(tools).forEach(id => {
+            socket.on(`log_${id}`, (data) => {
+                addLog(id, data.message);
+            });
+        });
+        
+        // 初始化
+        renderTools();
+        refreshOutputs();
+        
+        // 定时刷新
+        setInterval(refreshStatus, 5000);
+        setInterval(refreshOutputs, 10000);
+    </script>
+</body>
+</html>

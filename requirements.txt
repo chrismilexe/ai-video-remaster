@@ -1,0 +1,31 @@
+# 🎬 AI视频重制系统 - 依赖列表
+# 安装命令: pip install -r requirements.txt
+
+# Web框架
+flask>=2.3.0
+flask-socketio>=5.3.0
+
+# 实时通信
+python-socketio>=5.8.0
+websocket-client>=1.6.0
+
+# 跨平台支持
+pywin32>=306; platform_system=="Windows"
+psutil>=5.9.0
+
+# 文件处理
+watchdog>=3.0.0
+pathlib>=1.0.1
+
+# 数据处理
+requests>=2.31.0
+jsonschema>=4.19.0
+
+# 可选：如果你想在Mac上也运行一些轻量级模型
+# torch>=2.0.0; platform_system=="Darwin"
+# torchvision>=2.0.0; platform_system=="Darwin"
+# torchaudio>=2.0.0; platform_system=="Darwin"
+
+# 开发工具（可选）
+# pytest>=7.4.0
+# black>=23.0.0
