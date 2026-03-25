@@ -22,7 +22,7 @@ CONFIG = {
     "remote_host": "192.168.1.100",  # 修改为你的4090电脑IP
     "remote_user": "user",           # 修改为你的用户名
     "use_remote": False,             # True=远程控制, False=本地运行(如果Mac有显卡)
-    "tools_dir": "D:/\AI-Tools" if sys.platform == "win32" else "~/AI-Tools",
+    "tools_dir": "D:/AI-Tools" if sys.platform == "win32" else "~/AI-Tools",
     "output_dir": "./outputs",
 }
 
@@ -122,9 +122,21 @@ def get_conda_path():
     else:
         return "conda"
 
+def get_conda_activate_cmd(env_name):
+    """获取conda激活命令（跨平台）"""
+    if sys.platform == "win32":
+        conda_bat = os.path.expanduser("~/miniconda3/condabin/conda.bat")
+        return f'call "{conda_bat}" activate {env_name}'
+    else:
+        return f'conda activate {env_name}'
+
 def run_command(cmd, tool_id=None, cwd=None):
     """在后台运行命令并实时输出日志"""
     def target():
+        # Windows 需要使用 cmd.exe /c 来执行 conda activate
+        if sys.platform == "win32" and "conda activate" in cmd:
+            cmd = f'cmd.exe /c "{cmd}"'
+        
         process = subprocess.Popen(
             cmd,
             shell=True,
@@ -157,6 +169,12 @@ def run_command(cmd, tool_id=None, cwd=None):
     thread.start()
     return thread
 
+def get_conda_exe():
+    """获取conda可执行文件路径"""
+    if sys.platform == "win32":
+        return os.path.expanduser("~/miniconda3/condabin/conda.bat")
+    return "conda"
+
 def check_tool_status(tool_id):
     """检查工具是否已安装和运行中"""
     tool = TOOLS[tool_id]
@@ -170,10 +188,12 @@ def check_tool_status(tool_id):
     # 检查conda环境是否存在
     if tool_id == 'ollama':
         # Ollama 是系统级安装
-        result = subprocess.run(['which', 'ollama'], capture_output=True)
+        cmd = ['where', 'ollama'] if sys.platform == "win32" else ['which', 'ollama']
+        result = subprocess.run(cmd, capture_output=True)
         status['installed'] = result.returncode == 0
     else:
-        result = subprocess.run(['conda', 'env', 'list'], capture_output=True, text=True)
+        conda_exe = get_conda_exe()
+        result = subprocess.run([conda_exe, 'env', 'list'], capture_output=True, text=True)
         status['installed'] = tool['conda_env'] in result.stdout
     
     # 检查端口是否被占用
@@ -240,18 +260,24 @@ def start_tool(tool_id):
     
     # 构建启动命令
     if tool_id == 'whisperx':
-        cmd = f"conda activate {tool['conda_env']} && whisperx --help"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"{conda_cmd} && whisperx --help"
     elif tool_id == 'gptsovits':
-        cmd = f"cd {CONFIG['tools_dir']}/GPT-SoVITS && conda activate {tool['conda_env']} && python webui.py"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"cd /d {CONFIG['tools_dir']}/GPT-SoVITS && {conda_cmd} && python webui.py"
     elif tool_id == 'cosyvoice':
-        cmd = f"cd {CONFIG['tools_dir']}/CosyVoice && conda activate {tool['conda_env']} && python webui.py"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"cd /d {CONFIG['tools_dir']}/CosyVoice && {conda_cmd} && python webui.py"
     elif tool_id == 'fishspeech':
-        cmd = f"cd {CONFIG['tools_dir']}/fish-speech && conda activate {tool['conda_env']} && python -m fish_speech.webui"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"cd /d {CONFIG['tools_dir']}/fish-speech && {conda_cmd} && python -m fish_speech.webui"
     elif tool_id == 'musetalk':
-        cmd = f"cd {CONFIG['tools_dir']}/MuseTalk && conda activate {tool['conda_env']}"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"cd /d {CONFIG['tools_dir']}/MuseTalk && {conda_cmd}"
         return jsonify({'message': 'MuseTalk 是命令行工具，请使用"运行推理"功能'})
     elif tool_id == 'videoretalking':
-        cmd = f"cd {CONFIG['tools_dir']}/video-retalking && conda activate {tool['conda_env']}"
+        conda_cmd = get_conda_activate_cmd(tool['conda_env'])
+        cmd = f"cd /d {CONFIG['tools_dir']}/video-retalking && {conda_cmd}"
         return jsonify({'message': 'VideoReTalking 是命令行工具，请使用"运行推理"功能'})
     elif tool_id == 'ollama':
         cmd = "ollama serve"
@@ -282,7 +308,8 @@ def stop_tool(tool_id):
     tool = TOOLS.get(tool_id)
     if tool and tool['port']:
         if sys.platform == "win32":
-            cmd = f"for /f \"tokens=5\" %a in ('netstat -ano ^| findstr :{tool[\"port\"]}') do taskkill /F /PID %a"
+            port = tool['port']
+            cmd = f'for /f "tokens=5" %a in ("netstat -ano ^| findstr :{port}") do taskkill /F /PID %a'
         else:
             cmd = f"lsof -ti:{tool['port']} | xargs kill -9"
         subprocess.run(cmd, shell=True)
@@ -304,7 +331,8 @@ def transcribe():
     output_dir = data.get('output_dir', './outputs/transcripts')
     os.makedirs(output_dir, exist_ok=True)
     
-    cmd = f"conda activate whisperx && whisperx \"{video_path}\" --model {model} --language {language}"
+    conda_cmd = get_conda_activate_cmd('whisperx')
+    cmd = f"{conda_cmd} && whisperx \"{video_path}\" --model {model} --language {language}"
     if diarize:
         cmd += " --diarize"
     cmd += f" --output_dir \"{output_dir}\" --output_format srt"
@@ -369,9 +397,11 @@ def lip_sync():
     output_path = os.path.join(output_dir, output_name)
     
     if tool_id == 'musetalk':
-        cmd = f"cd {CONFIG['tools_dir']}/MuseTalk && conda activate musetalk && python inference.py --video_path \"{video_path}\" --audio_path \"{audio_path}\" --output_path \"{output_path}\""
+        conda_cmd = get_conda_activate_cmd('musetalk')
+        cmd = f"cd /d {CONFIG['tools_dir']}/MuseTalk && {conda_cmd} && python inference.py --video_path \"{video_path}\" --audio_path \"{audio_path}\" --output_path \"{output_path}\""
     elif tool_id == 'videoretalking':
-        cmd = f"cd {CONFIG['tools_dir']}/video-retalking && conda activate retalking && python inference.py --face \"{video_path}\" --audio \"{audio_path}\" --outfile \"{output_path}\""
+        conda_cmd = get_conda_activate_cmd('retalking')
+        cmd = f"cd /d {CONFIG['tools_dir']}/video-retalking && {conda_cmd} && python inference.py --face \"{video_path}\" --audio \"{audio_path}\" --outfile \"{output_path}\""
     else:
         return jsonify({'error': '未知的对口型工具'}), 400
     
@@ -472,10 +502,10 @@ if __name__ == '__main__':
     os.makedirs('./static', exist_ok=True)
     
     print("=" * 60)
-    print("🎬 AI视频重制系统 - 控制面板")
+    print("AI Video Remaster - Control Panel")
     print("=" * 60)
-    print(f"访问地址: http://localhost:8080")
-    print("按 Ctrl+C 停止服务")
+    print(f"URL: http://localhost:8080")
+    print("Press Ctrl+C to stop")
     print("=" * 60)
     
-    socketio.run(app, host='0.0.0.0', port=8080, debug=False)
+    socketio.run(app, host='0.0.0.0', port=8080, debug=False, allow_unsafe_werkzeug=True)
