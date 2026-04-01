@@ -47,6 +47,9 @@ outputs/*
 *.srt
 *.txt
 !requirements.txt
+!outputs/
+!outputs/**/
+!outputs/**/*.md
 
 # Models (大文件，不应提交)
 models/
