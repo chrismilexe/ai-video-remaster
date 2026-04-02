@@ -3,7 +3,9 @@
 ## Episode
 
 - Working ID: `ep01`
-- Working title: `The Yin-Yang Code: The Source of Everything`
+- Show Name: `The Outcome Code`
+- Tagline: `A Practical System for Reading People, Pressure, and Timing`
+- Working title: `Why Smart People Keep Making Bad Timing Decisions`
 - Source topic: `易经的智慧01 阴阳之道`
 - Primary language: `English`
 - Secondary language later: `Spanish`
@@ -20,12 +22,12 @@ Turn the existing Chinese source material into:
 ## Core Promise
 
 This episode should not feel like a lecture on Chinese philosophy.
-It should feel like a modern explanation of:
+It should feel like a practical reading of:
 
-- why life moves in cycles
-- why force creates imbalance
-- why timing matters more than control
-- how Yin and Yang can help people understand anxiety, relationships, and decision-making
+- why smart people still misread timing
+- why more force often creates worse outcomes
+- why anxiety can signal misalignment
+- how old pattern logic helps people read pressure and consequences
 
 ## Input Files
 
@@ -133,11 +135,11 @@ Task:
 - Create five short clips with separate hooks
 
 Clip directions:
-1. `Why people force life too hard`
-2. `Balance is not 50/50`
-3. `Anxiety as lost rhythm`
-4. `When to push and when to wait`
-5. `Yin and Yang as a decision framework`
+1. `Why smart people still get timing wrong`
+2. `When more force makes you lose`
+3. `What anxiety is really telling you`
+4. `Why pressure distorts judgment`
+5. `How to read the result before it arrives`
 
 ### Step 7. Produce visuals
 
@@ -168,23 +170,23 @@ Track:
 
 ## Recommended Episode Shape
 
-- Total audio length target: `18-24 min`
-- Spoken word target: `2,400-3,200 words`
+- Total audio length target: `8-10 min`
+- Spoken word target: `1,050-1,250 words`
 - Number of major sections: `4-5`
 
 Suggested structure:
-1. Hook: life is not static
-2. Explain Yin/Yang as living patterns
-3. Show how imbalance appears in modern life
-4. Give practical decision and relationship applications
-5. Close with one memorable line and next-step reflection
+1. Hook: smart people still get timing wrong
+2. Explain the pattern underneath force and misalignment
+3. Show how this appears in work, pressure, and judgment
+4. Give a practical way to read the situation earlier
+5. Close with one memorable line and one decision prompt
 
 ## Editorial Reminders
 
 - Do not over-explain mythology
-- Keep Fu Xi only if immediately contextualized
+- Keep old concepts only if they improve judgment
 - Replace abstract grandeur with practical clarity
-- Every deep line should help the listener think or act more clearly
+- Every strong line should sharpen pattern recognition
 - The episode should create both trust and clip-worthy moments
 
 ## Go / No-Go Checklist
@@ -194,4 +196,4 @@ Go only if all are true:
 - audio sample passes
 - visual script exists before video production
 - 5 clips are identified before long video editing
-- the episode has at least one real-life use case for relationships, anxiety, or decisions
+- the episode has at least one real-life use case for pressure, timing, or decisions

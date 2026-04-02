@@ -2,7 +2,7 @@
 
 ## Clip 1
 
-**Title**: Why People Force Life Too Hard  
+**Title**: Why Smart People Keep Getting Timing Wrong  
 **Length Target**: 30-45 sec
 
 **Hook**
@@ -25,19 +25,17 @@ If that feels uncomfortably true, the full episode goes deeper.
 
 ## Clip 2
 
-**Title**: Balance Is Not 50/50  
+**Title**: When More Force Makes You Lose  
 **Length Target**: 20-35 sec
 
 **Hook**
-Balance is not 50/50.
+More force is not always more power.
 
 **Body**
-Balance is knowing what the moment asks for.
-Sometimes it asks for effort.
-Sometimes it asks for patience.
-Sometimes it asks for one honest conversation.
-Sometimes it asks for rest.
-The mistake is using the same energy for every situation.
+The mistake is using the same energy in every situation.
+Sometimes pressure works.
+Sometimes pressure destroys timing.
+And once you cannot tell the difference, your own strength starts creating the loss.
 
 **CTA**
 Full episode in the main link.
@@ -49,7 +47,7 @@ Full episode in the main link.
 
 ## Clip 3
 
-**Title**: Anxiety As Lost Rhythm  
+**Title**: What Anxiety Is Really Telling You  
 **Length Target**: 30-45 sec
 
 **Hook**
@@ -71,7 +69,7 @@ If you've been living in that feeling, listen to the full episode.
 
 ## Clip 4
 
-**Title**: Too Much Force Breaks Connection  
+**Title**: Why Pressure Exposes People  
 **Length Target**: 30-50 sec
 
 **Hook**
@@ -79,13 +77,13 @@ Too much force breaks connection.
 Too much retreat creates distance.
 
 **Body**
-That's true in almost every relationship.
-When we feel tension, we usually think the answer is more effort.
-More explanation. More pressure. Faster resolution.
-But sometimes what the relationship needs is less force and better timing.
+Pressure reveals structure.
+It shows who can regulate, who can wait, and who only knows how to push.
+That is true in relationships, work, and politics.
+Under pressure, the hidden pattern becomes visible.
 
 **CTA**
-The full episode unpacks this through Yin and Yang.
+The full episode goes deeper on pressure, timing, and outcomes.
 
 **Visual Notes**
 - relationship tension scenes
@@ -94,7 +92,7 @@ The full episode unpacks this through Yin and Yang.
 
 ## Clip 5
 
-**Title**: Clarity Is Not Control  
+**Title**: How to Read the Result Earlier  
 **Length Target**: 30-45 sec
 
 **Hook**
@@ -108,7 +106,7 @@ Sometimes clarity comes from space, not attack.
 From timing, not force.
 
 **CTA**
-If decision fatigue is real for you right now, start with the full episode.
+If you want to spot the result before everyone else, start with the full episode.
 
 **Visual Notes**
 - notebook / walking / dawn visuals

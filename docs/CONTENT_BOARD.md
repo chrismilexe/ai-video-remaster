@@ -27,14 +27,14 @@
 
 | Episode | Title | Priority | Status | Next Action | Notes |
 |---|---|---:|---|---|---|
-| EP01 | The Source of Everything | High | en_master | 做样音 | 首发样板集 |
-| EP02 | Balance Is Not 50/50 | High | idea | 整理中文源稿 | 可做第二批 |
-| EP03 | Why Anxiety Feels Like Lost Rhythm | High | idea | 先出英文初稿 | 短视频潜力高 |
-| EP04 | When to Push, When to Wait | High | idea | 先做题纲 | 决策向 |
-| EP05 | Why Forcing Love Breaks Connection | High | idea | 先做题纲 | 关系向，反馈潜力高 |
-| EP06 | Burnout Is an Argument With Rhythm | Medium | idea | 暂缓 | 可做加餐 |
-| EP07 | Clarity Is Not Control | Medium | idea | 暂缓 | 可后做 |
-| EP08 | How to Live Through Change Without Panic | Medium | idea | 暂缓 | 收尾集 |
+| EP01 | Why Smart People Keep Making Bad Timing Decisions | High | en_master | 做样音 | 首发样板集 |
+| EP02 | When More Force Makes You Lose | High | idea | 整理中文源稿 | 第二个最适合上线 |
+| EP03 | What Anxiety Is Really Telling You | High | idea | 先出英文初稿 | 短视频潜力高 |
+| EP04 | How to Know When a Situation Is Turning Against You | High | idea | 先做题纲 | 局势判断向 |
+| EP05 | Why Pressure Exposes People | High | idea | 先做题纲 | 读人向，反馈潜力高 |
+| EP06 | Burnout Means Your Strategy Is Wrong | Medium | idea | 暂缓 | 可做加餐 |
+| EP07 | How to Spot the Breaking Point Early | Medium | idea | 暂缓 | 可后做 |
+| EP08 | How to Read the Outcome Before Everyone Else | Medium | idea | 暂缓 | 收尾集 |
 
 ## 库存目标
 

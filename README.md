@@ -3,6 +3,13 @@
 > 在 RTX 4090 上本地部署全流程AI视频重制工具链  
 > 从Mac通过Web UI远程控制
 
+## 当前内容品牌
+
+- Show Name: `The Outcome Code`
+- Tagline: `A Practical System for Reading People, Pressure, and Timing`
+- 当前内容方向：用中国传统模式分析去解释人、压力、时机与结果
+- 当前标题公式：`一个现实问题 + 一个模式判断 + 一个结果承诺`
+
 ---
 
 ## 📦 项目结构

@@ -3,9 +3,10 @@
 ## Episode
 
 - ID: `ep01`
-- Title: `The Source of Everything`
+- Show Name: `The Outcome Code`
+- Title: `Why Smart People Keep Making Bad Timing Decisions`
 - Video mode: `non-face visual podcast`
-- Goal: help the viewer understand Yin and Yang as a practical framework, not a distant philosophy lesson
+- Goal: help the viewer understand why smart people misread timing, pressure, and outcomes
 
 ## Visual Strategy
 
@@ -40,13 +41,13 @@ Seedance is not used to carry the entire long video.
 ## Segment 1
 
 ### Title
-Hook: Life Is Not a Rock
+Hook: Why Smart People Still Get Timing Wrong
 
 ### Time
 `00:00-00:25`
 
 ### Narration Goal
-Open with a tension: people think life is fixed, but life is actually patterned movement.
+Open with a tension: smart people often fail not because they are weak, but because they misread the timing.
 
 ### Viewer Takeaway
 This episode matters because the listener's stress and confusion are connected to how they relate to change.
@@ -63,19 +64,19 @@ This episode matters because the listener's stress and confusion are connected t
 - brief cut to modern-life scenes
 
 ### On-Screen Text
-- `What if life is not stable, but rhythmic?`
-- `Why do we suffer when we fight the pattern?`
+- `Why do smart people still get timing wrong?`
+- `When does force become a mistake?`
 
 ## Segment 2
 
 ### Title
-The Real Problem: We Keep Forcing What Should Be Timed
+The Real Problem: Pressure Distorts Judgment
 
 ### Time
 `00:25-01:40`
 
 ### Narration Goal
-Translate the ancient topic into a current pain point: over-control, overthinking, pushing at the wrong moment.
+Translate the framework into a current pain point: over-control, overthinking, and pushing at the wrong moment.
 
 ### Viewer Takeaway
 The topic is not abstract philosophy. It is about everyday misalignment.
@@ -94,13 +95,13 @@ The topic is not abstract philosophy. It is about everyday misalignment.
 ## Segment 3
 
 ### Title
-Yin and Yang as Living Patterns
+The Pattern Underneath Force and Timing
 
 ### Time
 `01:40-04:30`
 
 ### Narration Goal
-Explain Yin and Yang in plain English: not opposites at war, but complementary movement inside one living process.
+Explain the pattern in plain English: not mystical opposites, but a practical system for reading movement, resistance, and timing.
 
 ### Viewer Takeaway
 Balance is dynamic, not static.
@@ -120,13 +121,13 @@ Balance is dynamic, not static.
 ## Segment 4
 
 ### Title
-What Imbalance Looks Like in Real Life
+What Bad Timing Looks Like in Real Life
 
 ### Time
 `04:30-08:30`
 
 ### Narration Goal
-Show where Yin/Yang imbalance appears today: relationships, burnout, indecision, emotional exhaustion.
+Show where misread timing appears today: work, pressure, indecision, and emotional exhaustion.
 
 ### Viewer Takeaway
 The viewer should recognize themselves in at least one example.
@@ -154,13 +155,13 @@ The viewer should recognize themselves in at least one example.
 ## Segment 5
 
 ### Title
-Practical Application
+How to Read the Situation Earlier
 
 ### Time
 `08:30-12:00`
 
 ### Narration Goal
-Move from understanding to use. Give the viewer a way to apply the idea tonight.
+Move from understanding to use. Give the viewer a way to read a situation before the result fully arrives.
 
 ### Viewer Takeaway
 The episode becomes useful, not just insightful.
@@ -192,7 +193,7 @@ Closing Reflection
 End with one memorable line and a feeling of grounded insight.
 
 ### Viewer Takeaway
-Balance is not perfection. It is intelligent response to the moment.
+Good judgment is not force. It is knowing what the moment asks for.
 
 ### Visual Direction
 - slower mood footage
@@ -200,8 +201,8 @@ Balance is not perfection. It is intelligent response to the moment.
 - large text close
 
 ### On-Screen Text
-- `Balance is not 50/50.`
-- `Balance is knowing what the moment asks for.`
+- `More force is not always more power.`
+- `Good timing beats blind pressure.`
 - `Full episode in description / follow for the next layer.`
 
 ## Reusable Clip Candidates

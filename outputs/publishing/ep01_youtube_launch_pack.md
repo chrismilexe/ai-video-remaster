@@ -12,61 +12,61 @@ Primary goal this week:
 ## Video Title Options
 
 ### Best first test
-- Why You Feel Stuck: Yin and Yang for Real Life
+- Why Smart People Keep Making Bad Timing Decisions
 
 ### Backups
-- Why You Feel Anxious, Tired, and Out of Sync
-- The Ancient Secret Behind Anxiety, Timing, and Balance
-- Balance Is Not 50/50: What Yin and Yang Really Mean
-- Why Forcing Life Makes Everything Harder
-- Yin and Yang for People Who Feel Lost, Tired, or Stuck
+- When More Force Makes You Lose
+- What Anxiety Is Really Telling You
+- How to Read the Outcome Before Everyone Else
+- The Ancient Chinese System for Reading People and Pressure
+- Why Smart People Still Misread Timing
 
 ## Thumbnail Text Options
 
 ### Strongest options
-- WHY YOU FEEL STUCK
-- BALANCE IS NOT 50/50
+- BAD TIMING KILLS GOOD STRATEGY
+- SMART PEOPLE MISREAD TIMING
 
 ### Backup options
-- YOU'RE PUSHING AT THE WRONG TIME
-- WHY LIFE FEELS OFF
-- FORCE IS NOT CLARITY
+- MORE FORCE MAKES YOU LOSE
+- PRESSURE EXPOSES PEOPLE
+- READ THE RESULT EARLY
 
 ## Video Description
 
-What if the reason you feel stuck is not that life is against you, but that you're using force where life is asking for rhythm?
+Why do smart people still make bad timing decisions?
 
-In this first episode of The Yin-Yang Code, we explore Yin and Yang not as abstract philosophy, but as a practical framework for understanding anxiety, burnout, relationships, timing, and decision-making.
+In the first episode of The Outcome Code, we use Chinese pattern analysis to explain why more force often leads to worse outcomes, why anxiety can be a timing problem, and how pressure exposes the real structure underneath a situation.
 
-This is ancient wisdom for real life: clear, grounded, and useful.
+This is not comfort content. It is a practical system for reading people, pressure, and timing.
 
 If this episode speaks to something real in your life, leave a comment. I'm building the next episodes from real viewer feedback.
 
 Topics in this episode:
-- Yin and Yang in plain English
-- Why anxiety can feel like misalignment
-- Why forcing relationships creates more tension
-- Why burnout is often a fight against rhythm
-- A simple reflection practice for finding balance
+- why smart people still get timing wrong
+- why pressure distorts judgment
+- what anxiety is really telling you
+- why more force often produces worse outcomes
+- how to read a situation earlier
 
 Subscribe for future episodes on:
-- emotional balance
+- human behavior
 - timing
-- relationships
-- modern spirituality
+- pressure
 - decision-making
-- practical wisdom
+- consequence
+- pattern recognition
 
-#YinYang #ModernSpirituality #PersonalGrowth #Anxiety #Burnout #SelfAwareness
+#Timing #DecisionMaking #HumanBehavior #Pressure #PatternRecognition #Strategy
 
 ## Pinned Comment
 
 What part of this hit you most?
 
-1. relationships
-2. anxiety
-3. burnout
-4. timing / decision-making
+1. timing
+2. pressure
+3. anxiety
+4. reading people
 
 I'm using the comments to shape the next episode, so be specific.
 
@@ -74,9 +74,9 @@ I'm using the comments to shape the next episode, so be specific.
 
 Use these in replies or Community posts:
 
-- Where in life are you pushing too hard right now?
-- Did this feel more true in relationships or work?
-- What should the next episode focus on: anxiety, timing, love, or burnout?
+- Where are you using force when timing matters more?
+- Did this feel more true in work, pressure, or people-reading?
+- What should the next episode focus on: pressure, timing, outcomes, or reading people?
 
 ## First 2 Shorts to Publish
 

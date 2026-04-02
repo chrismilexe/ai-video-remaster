@@ -1,5 +1,18 @@
-# The Yin-Yang Code
-## Episode 1: The Source of Everything
+# 节目名称
+The Outcome Code
+
+# 第 1 集标题
+Episode 1: Why Smart People Keep Making Bad Timing Decisions
+
+# 朗读说明
+
+- 整体感觉：平静、亲近、清晰，不要像演讲，也不要像神秘表演。
+- 朗读方式：像高质量播客口播，先让人觉得“你在理解我”，再带着他往下走。
+- 节奏：自然、稳定，重点句后留一点呼吸感，不要抢。
+- 重点词：`force`、`rhythm`、`timing`、`balance`、`control`、`clarity` 这些词要更清楚一点。
+- 避免：说教感、过度戏剧化、过慢、每句都压得太重。
+
+# 英文正文
 
 What if the reason you feel stuck is not that life is broken...
 but that you keep using force where life is asking for rhythm?
@@ -8,7 +21,7 @@ but that you keep using force where life is asking for rhythm?
 
 Think about how most people live.
 When something feels uncertain, we push harder.
-We overthink. We overwork. We over-explain. We try to control the timing of everything.
+We overthink, overwork, over-explain, and try to control the timing of everything.
 
 [beat]
 
@@ -20,7 +33,7 @@ Why even success can feel strangely out of sync.
 [pause]
 
 So this episode is not really about learning an ancient Chinese idea just to sound wise.
-It is about understanding one practical question:
+It is about one practical question:
 How do you know when to push, when to wait, and when your own energy is creating the problem?
 
 [beat]
@@ -30,7 +43,6 @@ But in plain English, we are talking about rhythm.
 Timing.
 Pressure and receptivity.
 Action and restraint.
-The deeper pattern underneath burnout, conflict, and bad decisions.
 
 [pause]
 
@@ -41,7 +53,7 @@ You will wait when you need to move.
 
 [beat]
 
-That is where anxiety often begins.
+That is where a lot of suffering begins.
 Not always from danger.
 Sometimes from misalignment.
 From trying to make life obey a tempo it was never in.
@@ -59,38 +71,43 @@ The real question is, “What did these people notice about life that we keep fo
 
 [pause]
 
-Long before modern psychology gave us language for emotional patterns, ancient observers were already paying attention to something basic.
-Nothing stays in one state forever.
+They noticed that nothing stays in one state forever.
 Everything shifts.
 Everything turns.
-Everything contains the seed of its opposite.
+Everything carries the seed of change inside itself.
 
 [beat]
 
 Day turns into night.
-Activity turns into fatigue.
+Energy turns into fatigue.
 Closeness turns into distance.
 Confidence turns into doubt.
-Even love changes shape depending on timing, attention, and energy.
 
 [pause]
 
-And what this means in your life is that balance is not something you achieve once.
-Balance is something you keep adjusting.
-Again and again. Situation by situation.
+And right here is the first turning point.
+Most people do not suffer because life changes.
+They suffer because they keep demanding stability from a world that is built on movement.
 
 [beat]
+
+That is why balance is not something you achieve once.
+Balance is something you keep adjusting.
+Again and again.
+Moment by moment.
+
+[pause]
 
 A simple way to practice this is to stop asking, “How do I stay in control?”
 And start asking, “What is this moment asking for?”
 
-[pause]
+[beat]
 
 That one shift changes a lot.
 Because control and clarity are not the same thing.
 You can be highly controlling and still be completely out of touch with reality.
 
-[beat]
+[pause]
 
 Think about relationships.
 Sometimes we feel distance and immediately try to fix it.
@@ -98,37 +115,48 @@ We text more. Explain more. Push for resolution faster.
 We call that effort.
 We call that care.
 
-[pause]
+[beat]
 
 But sometimes that effort is actually pressure.
 Sometimes the other person does not need more force.
-They need more space. More calm. More timing.
+They need more space.
+More calm.
+Better timing.
 
-[beat]
+[pause]
 
 Too much force breaks connection.
 Too much retreat creates distance.
 And balance is not choosing one side forever.
 It is sensing what the relationship needs now.
 
-[pause]
-
-That is a very practical version of Yin and Yang.
-Not man versus woman. Not light versus dark in some dramatic movie sense.
-Just this: one movement reaches outward, one movement receives.
-One movement acts, one movement allows.
-One movement clarifies, one movement softens.
-
 [beat]
+
+That is a practical version of Yin and Yang.
+One movement reaches outward.
+One movement receives.
+One movement acts.
+One movement allows.
+
+[pause]
 
 Neither one is the villain.
 The problem begins when we get trapped in only one mode.
 
+[beat]
+
+Now let me turn the lens a little.
+Because if this only applied to relationships, it would still be useful.
+But it applies everywhere.
+
 [pause]
 
-You can see the same thing at work.
+It shows up at work.
 A lot of people are praised for relentless output.
-Keep going. Keep building. Keep pushing. Keep performing.
+Keep going.
+Keep building.
+Keep pushing.
+Keep performing.
 
 [beat]
 
@@ -144,29 +172,35 @@ You keep trying to produce when life is asking you to reset.
 
 [beat]
 
-And no, this does not mean becoming passive.
-It does not mean avoiding responsibility.
-It means understanding that sustainable power is rhythmic.
-Not constant.
+And here is the second turning point.
+A lot of people hear that and think, “So I should just stop trying.”
+No.
+That is not the point.
 
 [pause]
+
+This is not a call to become passive.
+It is a call to become accurate.
+Sustainable power is rhythmic.
+Not constant.
+
+[beat]
 
 Breathing works because you inhale and exhale.
 Walking works because one foot leaves the ground while the other supports you.
 Even strength training works through stress and recovery.
 
-[beat]
+[pause]
 
 So why do we expect emotional life to work differently?
-Why do we think healthy ambition means permanent output?
 Why do we think maturity means always being composed, always certain, always moving forward?
 
-[pause]
+[beat]
 
 A question to sit with is this:
 Where in your life are you trying to stay in one mode for too long?
 
-[beat]
+[pause]
 
 Too strong for too long.
 Too available for too long.
@@ -174,37 +208,43 @@ Too guarded for too long.
 Too productive for too long.
 Too cautious for too long.
 
-[pause]
+[beat]
 
 Every one of those can become imbalance.
 Even a good quality becomes distortion when it loses rhythm.
 
-[beat]
+[pause]
 
 This is also why decision-making becomes so hard.
 A lot of people think clarity comes from squeezing harder.
-More analysis. More research. More mental pressure.
+More analysis.
+More research.
+More mental pressure.
 
-[pause]
+[beat]
 
 But often clarity shows up after pressure drops.
 After the noise calms.
 After you stop trying to force certainty from a mind that is already overloaded.
 
+[pause]
+
+And this is the third turning point.
+Not every problem gets solved by more effort.
+Some problems get solved by better timing.
+
 [beat]
 
-What this means in real life is that not every decision improves through attack.
 Some decisions improve through observation.
 Some through distance.
 Some through one night of sleep.
-Some through a conversation that softens your ego enough to see clearly.
+Some through one honest conversation.
 
 [pause]
 
 That does not sound dramatic.
 But it is powerful.
-Because timing is powerful.
-And pressure is often a terrible substitute for timing.
+Because pressure is often a terrible substitute for timing.
 
 [beat]
 
@@ -233,14 +273,18 @@ Does it need one clear step instead of ten frantic ones?
 
 Tonight, try this.
 Choose one area of your life that feels tense right now.
-A relationship. A decision. Your work. Your body. Your future.
+A relationship.
+A decision.
+Your work.
+Your body.
+Your future.
 
 [beat]
 
 Write down three short answers.
 Where am I forcing?
 Where am I withdrawing?
-What would balance look like here, just for the next seven days?
+What would balance look like here for just the next seven days?
 
 [pause]
 
@@ -257,7 +301,7 @@ It is a way of seeing movement, tension, and change more accurately.
 
 [pause]
 
-It reminds you that life is rarely asking you to become one fixed thing.
+Life is rarely asking you to become one fixed thing.
 It is asking you to respond intelligently as conditions change.
 
 [beat]
@@ -268,8 +312,8 @@ Balance is knowing what the moment asks for.
 [pause]
 
 And when you learn that, you stop fighting life so blindly.
-You start listening better.
-You start moving with more precision.
+You listen better.
+You move with more precision.
 And your choices begin to carry less panic, and more trust.
 
 [beat]
