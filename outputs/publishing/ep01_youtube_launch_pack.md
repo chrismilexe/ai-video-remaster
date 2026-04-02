@@ -12,9 +12,10 @@ Primary goal this week:
 ## Video Title Options
 
 ### Best first test
-- Why You Feel Stuck: Yin and Yang for Modern Life
+- Why You Feel Stuck: Yin and Yang for Real Life
 
 ### Backups
+- Why You Feel Anxious, Tired, and Out of Sync
 - The Ancient Secret Behind Anxiety, Timing, and Balance
 - Balance Is Not 50/50: What Yin and Yang Really Mean
 - Why Forcing Life Makes Everything Harder
@@ -33,11 +34,11 @@ Primary goal this week:
 
 ## Video Description
 
-What if the reason you feel stuck is not that life is against you, but that you're pushing at the wrong moment?
+What if the reason you feel stuck is not that life is against you, but that you're using force where life is asking for rhythm?
 
 In this first episode of The Yin-Yang Code, we explore Yin and Yang not as abstract philosophy, but as a practical framework for understanding anxiety, burnout, relationships, timing, and decision-making.
 
-This is ancient wisdom for modern life: clear, grounded, and useful.
+This is ancient wisdom for real life: clear, grounded, and useful.
 
 If this episode speaks to something real in your life, leave a comment. I'm building the next episodes from real viewer feedback.
 
