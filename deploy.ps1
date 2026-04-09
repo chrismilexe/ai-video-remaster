@@ -5,6 +5,7 @@ $ErrorActionPreference = "Stop"
 
 # Config
 $InstallDir = "D:\AI-Tools"
+$LibraryRoot = "D:\Video2AudioLibrary"
 $CondaBat = "$env:USERPROFILE\miniconda3\condabin\conda.bat"
 
 Write-Host "========================================" -ForegroundColor Magenta
@@ -33,6 +34,7 @@ Write-Host "    Conda found: $CondaBat" -ForegroundColor Green
 # Step 3: Create directories
 Write-Host "`n[3/6] Creating directories..." -ForegroundColor Cyan
 New-Item -ItemType Directory -Force -Path $InstallDir | Out-Null
+New-Item -ItemType Directory -Force -Path $LibraryRoot, "$LibraryRoot\incoming", "$LibraryRoot\assets", "$LibraryRoot\manifests" | Out-Null
 Set-Location $InstallDir
 
 # Helper function to run conda
@@ -113,6 +115,7 @@ echo   $env:USERPROFILE\miniconda3\condabin\conda.bat activate musetalk   (Lip S
 echo.
 echo Quick commands:
 echo   whisperx video.mp4 --model large-v3 --language zh
+echo   powershell -ExecutionPolicy Bypass -File C:\path\to\video2audio\scripts\run_batch_ingest.ps1
 echo   D:\AI-Tools\GPT-SoVITS\start.bat
 echo   ollama serve
 echo ========================================
@@ -128,10 +131,16 @@ Write-Host "  1. WhisperX   (conda: whisperx)  - Speech to Text"
 Write-Host "  2. GPT-SoVITS (conda: gptsovits) - Voice Clone"
 Write-Host "  3. MuseTalk   (conda: musetalk)  - Lip Sync"
 Write-Host "  4. Ollama     (system)           - Local LLM"
+Write-Host "`nContent Library:"
+Write-Host "  Root: $LibraryRoot"
+Write-Host "  Incoming: $LibraryRoot\incoming"
 Write-Host "`nNext Steps:"
 Write-Host "  1. Open: $InstallDir\console.bat"
-Write-Host "  2. Download models: ollama pull qwen2.5:32b"
-Write-Host "  3. Start Web UI: python app.py"
+Write-Host "  2. Copy config\library.example.json -> config\library.json"
+Write-Host "  3. Put videos into $LibraryRoot\incoming"
+Write-Host "  4. Run scripts\run_batch_ingest.ps1 from this repo"
+Write-Host "  5. Download models: ollama pull qwen2.5:32b"
+Write-Host "  6. Start Web UI: python app.py"
 Write-Host "========================================" -ForegroundColor Green
 
 pause

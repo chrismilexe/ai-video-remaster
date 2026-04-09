@@ -22,10 +22,15 @@ video2audio/
 ├── 📄 MODELS-2026.md         # 2026年3月最新模型推荐
 ├── 📄 REMOTE-CONTROL.md      # Mac远程控制4090指南
 ├── 📄 requirements.txt       # Python依赖
+├── 📁 config/                # 本地内容库配置样例
+│   └── library.example.json
 │
 ├── 🐍 app.py                 # 主Web UI应用 (Mac上运行)
 ├── 🖥️ start.sh               # Mac启动脚本
 ├── 🖥️ start.bat              # Windows启动脚本 (备用)
+├── 📁 scripts/               # 批量入库与脚本资产
+│   ├── batch_ingest.py
+│   └── run_batch_ingest.ps1
 │
 ├── 📁 templates/             # Web界面模板
 │   └── index.html            # 主控制面板
@@ -62,6 +67,21 @@ python app.py
 # 浏览器访问 http://localhost:8080
 ```
 
+### 步骤3: 4090机器批量入库文稿
+
+```powershell
+# 在仓库根目录执行
+Copy-Item .\config\library.example.json .\config\library.json
+
+# 把视频放到 D:\Video2AudioLibrary\incoming
+
+# 执行批量入库
+powershell -ExecutionPolicy Bypass -File .\scripts\run_batch_ingest.ps1
+
+# 可选快速试跑
+powershell -ExecutionPolicy Bypass -File .\scripts\run_batch_ingest.ps1 --fast --limit 5
+```
+
 ---
 
 ## 📚 文档导航
@@ -72,6 +92,7 @@ python app.py
 | **README-DEPLOY.md** | 详细部署说明 | 遇到问题查看 |
 | **MODELS-2026.md** | 模型选择与优化 | 部署完成后调优 |
 | **REMOTE-CONTROL.md** | 远程控制配置 | 需要SSH控制时 |
+| **docs/WINDOWS11_BATCH_INGEST_RUNBOOK.md** | Windows 11 批量入库执行手册 | 回家后直接按它跑 |
 
 ---
 
@@ -139,6 +160,31 @@ python app.py
    - 字幕文件 (.srt)
    - 音频文件 (.wav)
    - 视频文件 (.mp4)
+
+---
+
+## 🗂️ 批量内容库
+
+长期内容库默认放在仓库外：
+
+`D:\Video2AudioLibrary`
+
+目录结构：
+
+```text
+D:\Video2AudioLibrary\
+├── incoming\                 # 待处理视频
+├── assets\
+│   └── <asset_id>\
+│       ├── transcript.srt
+│       ├── transcript.json
+│       ├── raw_zh.md
+│       └── metadata.json
+└── manifests\
+    └── library_index.jsonl
+```
+
+第一版的目标是先把本地视频稳定转成中文文稿资产，作为后续主题总稿、英文主稿和时事结合创作的基础库。
 
 ---
 

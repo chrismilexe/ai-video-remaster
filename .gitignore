@@ -65,6 +65,7 @@ logs/
 # Environment variables
 .env
 .env.local
+config/library.json
 
 # Temporary files
 tmp/

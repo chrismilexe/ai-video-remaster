@@ -1,0 +1,33 @@
+{
+  "library_root": "D:\\Video2AudioLibrary",
+  "input_dirs": [
+    "D:\\Video2AudioLibrary\\incoming"
+  ],
+  "whisperx_env": "whisperx",
+  "default_model": "large-v3",
+  "default_language": "zh",
+  "batch_size": 16,
+  "compute_type": "float16",
+  "enable_diarization": false,
+  "device": "cuda",
+  "hf_token": "",
+  "video_extensions": [
+    ".mp4",
+    ".mkv",
+    ".mov",
+    ".avi",
+    ".wmv",
+    ".m4v",
+    ".flv",
+    ".webm"
+  ],
+  "audio_extensions": [
+    ".mp3",
+    ".wav",
+    ".m4a",
+    ".aac",
+    ".flac",
+    ".ogg",
+    ".wma"
+  ]
+}

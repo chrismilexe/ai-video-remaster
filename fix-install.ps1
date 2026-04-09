@@ -3,10 +3,12 @@ $ErrorActionPreference = "Stop"
 
 $CondaBat = "$env:USERPROFILE\miniconda3\condabin\conda.bat"
 $InstallDir = "D:\AI-Tools"
+$LibraryRoot = "D:\Video2AudioLibrary"
 
 Write-Host "========================================" -ForegroundColor Green
 Write-Host "  Fixing AI Tools Installation" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Green
+New-Item -ItemType Directory -Force -Path $LibraryRoot, "$LibraryRoot\incoming", "$LibraryRoot\assets", "$LibraryRoot\manifests" | Out-Null
 
 # 1. WhisperX
 Write-Host "`n[1/3] Setting up WhisperX..." -ForegroundColor Cyan
@@ -42,3 +44,4 @@ Write-Host "MuseTalk OK!" -ForegroundColor Green
 Write-Host "`n========================================" -ForegroundColor Green
 Write-Host "  All environments fixed!" -ForegroundColor Green
 Write-Host "========================================" -ForegroundColor Green
+Write-Host "Content library root: $LibraryRoot" -ForegroundColor Green

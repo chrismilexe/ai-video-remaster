@@ -238,6 +238,11 @@ D:\AI-Tools\
     ├── transcripts\      # 字幕文件
     ├── audio\            # 生成音频
     └── videos\           # 最终视频
+
+D:\Video2AudioLibrary\
+├── incoming\             # 待批量转录视频
+├── assets\               # 单条资产目录
+└── manifests\            # 内容库索引
 ```
 
 ---
@@ -256,9 +261,14 @@ D:\AI-Tools\
 
 ## 📞 下一步
 
-1. **优化工作流**: 参考 MODELS-2026.md 调整参数
-2. **批量处理**: 使用API批量处理课程视频
-3. **自动化**: 配置n8n/Activepieces自动工作流
+1. **复制配置**:
+   `Copy-Item .\config\library.example.json .\config\library.json`
+2. **放入素材**:
+   把视频放进 `D:\Video2AudioLibrary\incoming`
+3. **批量入库**:
+   `powershell -ExecutionPolicy Bypass -File .\scripts\run_batch_ingest.ps1`
+4. **优化工作流**: 参考 MODELS-2026.md 调整参数
+5. **自动化**: 配置 n8n/Activepieces 自动工作流
 
 **预计处理速度**:
 - 1小时课程视频 → 约10分钟完成全套流程
