@@ -1,0 +1,12 @@
+{
+  "asset_id": "82_08c19696",
+  "sha256": "08c19696d4523c16ba8f817a7cf731d4e1e84d35e7c7ec52ee7c318c1f0cc9bf",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\82.mp4",
+  "source_name": "82.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1431.835,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:17:07Z"
+}

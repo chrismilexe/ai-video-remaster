@@ -1,0 +1,12 @@
+{
+  "asset_id": "24_曾仕强易经的智慧24以小养大_a2c780ef",
+  "sha256": "a2c780ef361f2aa8b20c55b53bb8eab6d018537e0dc1e7b7105f16e061f271ab",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\24.曾仕强易经的智慧24以小养大.flv",
+  "source_name": "24.曾仕强易经的智慧24以小养大.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1798.178,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:36:15Z"
+}

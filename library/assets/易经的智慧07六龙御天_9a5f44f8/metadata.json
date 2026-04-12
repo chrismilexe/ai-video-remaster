@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧07六龙御天_9a5f44f8",
+  "sha256": "9a5f44f86c5d88f08d44551a952d1991d0df32766d386cab34ecbe7a697f435c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧07六龙御天.mp4",
+  "source_name": "易经的智慧07六龙御天.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2876.304,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:57:45Z"
+}

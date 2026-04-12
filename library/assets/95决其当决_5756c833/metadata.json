@@ -1,0 +1,12 @@
+{
+  "asset_id": "95决其当决_5756c833",
+  "sha256": "5756c8332b692cd2ba3e0be07bbdab44287fe0e1c2fe5b6dd606959d0508e71c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\95决其当决.mp4",
+  "source_name": "95决其当决.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1543.395,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:31:49Z"
+}

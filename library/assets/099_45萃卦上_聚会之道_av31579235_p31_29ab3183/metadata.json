@@ -1,0 +1,12 @@
+{
+  "asset_id": "099_45萃卦上_聚会之道_av31579235_p31_29ab3183",
+  "sha256": "29ab3183fc79cd40f021db72d564cb0bfafa39653dc2bf4350467775580bf2cd",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\099_45萃卦上_聚会之道(Av31579235,P31).flv",
+  "source_name": "099_45萃卦上_聚会之道(Av31579235,P31).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1390.13,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:21:54Z"
+}

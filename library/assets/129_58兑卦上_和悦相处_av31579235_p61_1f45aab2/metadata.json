@@ -1,0 +1,12 @@
+{
+  "asset_id": "129_58兑卦上_和悦相处_av31579235_p61_1f45aab2",
+  "sha256": "1f45aab2443168bf1503dddeeff8fec8b628bc3d22e684ee55fc1d26ae02ae5c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\129_58兑卦上_和悦相处(Av31579235,P61).flv",
+  "source_name": "129_58兑卦上_和悦相处(Av31579235,P61).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.662,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:15:47Z"
+}

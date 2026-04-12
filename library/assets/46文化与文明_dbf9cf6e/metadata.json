@@ -1,0 +1,12 @@
+{
+  "asset_id": "46文化与文明_dbf9cf6e",
+  "sha256": "dbf9cf6e2b784a7f066db73a800f5a2506d1126be712416891001c3bd6437f4e",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\46文化与文明.mp4",
+  "source_name": "46文化与文明.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1370.348,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:01:53Z"
+}

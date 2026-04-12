@@ -1,0 +1,12 @@
+{
+  "asset_id": "01_阴阳之道_0722a4ea",
+  "sha256": "0722a4eabab60faca34fe271c0856cbb401d010a7c937d2b82670e92e98dec6f",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\01.阴阳之道.mp4",
+  "source_name": "01.阴阳之道.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2012.034,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:15:50Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧18师忧比乐_58e4198e",
+  "sha256": "58e4198e1a662476d69d02b9274c516d440455897093d989f8558189ed2d8218",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧18师忧比乐.mp4",
+  "source_name": "易经的智慧18师忧比乐.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2963.896,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:13:11Z"
+}

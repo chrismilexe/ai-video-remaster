@@ -1,0 +1,12 @@
+{
+  "asset_id": "115_53渐卦上_循序渐进_av31579235_p47_274a501d",
+  "sha256": "274a501d1912084580f78d1b3b0fe97db18d56ede5e1de97dbea5168e32825ba",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\115_53渐卦上_循序渐进(Av31579235,P47).flv",
+  "source_name": "115_53渐卦上_循序渐进(Av31579235,P47).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1390.024,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:00:14Z"
+}

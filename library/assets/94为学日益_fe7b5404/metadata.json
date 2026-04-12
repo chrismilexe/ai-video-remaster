@@ -1,0 +1,12 @@
+{
+  "asset_id": "94为学日益_fe7b5404",
+  "sha256": "fe7b54040c656ba296a91f6979a9185ae8ae779096dfef151f2dda274125a8b6",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\94为学日益.mp4",
+  "source_name": "94为学日益.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1736.947,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:30:40Z"
+}

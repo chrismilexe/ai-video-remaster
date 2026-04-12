@@ -1,0 +1,12 @@
+{
+  "asset_id": "61_大过大悟_bb8700a2",
+  "sha256": "bb8700a2a396d08cab1c5dda84b3a9669885b5d084295928a5fcf301a57164a3",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\61.大过大悟.flv",
+  "source_name": "61.大过大悟.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1568.569,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:53:57Z"
+}

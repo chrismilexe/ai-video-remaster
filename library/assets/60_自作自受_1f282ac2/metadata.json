@@ -1,0 +1,12 @@
+{
+  "asset_id": "60_自作自受_1f282ac2",
+  "sha256": "1f282ac2949154325e7b5e09cd1394618a82053dc6ec420035153211405ed22e",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\60.自作自受.flv",
+  "source_name": "60.自作自受.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1798.592,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:52:48Z"
+}

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -199,8 +200,9 @@ def build_whisperx_command(
     diarize: bool,
     hf_token: str,
 ) -> List[str]:
+    whisperx_executable = resolve_whisperx_executable()
     command = [
-        "whisperx",
+        whisperx_executable,
         str(source_path),
         "--model",
         model,
@@ -222,6 +224,37 @@ def build_whisperx_command(
         if hf_token:
             command.extend(["--hf_token", hf_token])
     return command
+
+
+def resolve_whisperx_executable() -> str:
+    env_python = Path(sys.executable).resolve()
+    candidates = []
+
+    if os.name == "nt":
+        candidates.extend(
+            [
+                env_python.parent / "Scripts" / "whisperx.exe",
+                env_python.parent / "Scripts" / "whisperx",
+                env_python.parent / "whisperx.exe",
+            ]
+        )
+    else:
+        candidates.extend(
+            [
+                env_python.parent / "whisperx",
+                env_python.parent.parent / "bin" / "whisperx",
+            ]
+        )
+
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
+
+    resolved = shutil.which("whisperx")
+    if resolved:
+        return resolved
+
+    raise IngestError("Could not locate whisperx executable for the current Python environment.")
 
 
 def run_whisperx(

@@ -1,0 +1,12 @@
+{
+  "asset_id": "137_61中孚卦上_广施诚信_av31579235_p69_29b5a8f7",
+  "sha256": "29b5a8f787c053bb279b3df23891c66a1e1a5ac66b53570bb0a4bbd9931868b4",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\137_61中孚卦上_广施诚信(Av31579235,P69).flv",
+  "source_name": "137_61中孚卦上_广施诚信(Av31579235,P69).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.773,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:24:49Z"
+}

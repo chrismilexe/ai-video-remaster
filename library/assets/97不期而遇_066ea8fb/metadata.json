@@ -1,0 +1,12 @@
+{
+  "asset_id": "97不期而遇_066ea8fb",
+  "sha256": "066ea8fb50ba4b62d802ff9c9b751e3bc33082ca9cf6116231a25a34475c4fda",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\97不期而遇.mp4",
+  "source_name": "97不期而遇.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1402.418,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:34:01Z"
+}

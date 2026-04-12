@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧11乾坤之道_f2b35dc7",
+  "sha256": "f2b35dc7db4755de64c9445467ef0db86746d0b6b29f41d851cde50f96a0d28b",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧11乾坤之道.mp4",
+  "source_name": "易经的智慧11乾坤之道.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2918.914,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:02:08Z"
+}

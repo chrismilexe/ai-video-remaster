@@ -1,0 +1,12 @@
+{
+  "asset_id": "75_d9fc70be",
+  "sha256": "d9fc70bea828021862e289b3280faacb506bb99ac69c9977498e7e2553fb704d",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\75.mp4",
+  "source_name": "75.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1427.208,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:09:38Z"
+}

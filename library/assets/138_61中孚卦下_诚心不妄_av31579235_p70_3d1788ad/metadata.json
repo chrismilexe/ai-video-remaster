@@ -1,0 +1,12 @@
+{
+  "asset_id": "138_61中孚卦下_诚心不妄_av31579235_p70_3d1788ad",
+  "sha256": "3d1788ad5ce6cd9e976e7ccdb811930d95beadcd27a9134dc615cd3b3b110a49",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\138_61中孚卦下_诚心不妄(Av31579235,P70).flv",
+  "source_name": "138_61中孚卦下_诚心不妄(Av31579235,P70).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.544,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:26:01Z"
+}

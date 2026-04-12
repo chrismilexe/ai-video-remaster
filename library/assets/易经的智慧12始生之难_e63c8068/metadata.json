@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧12始生之难_e63c8068",
+  "sha256": "e63c80680e05490b6d5a9d67f433bcf4e815b7c9c0db6396db847d973011b151",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧12始生之难.mp4",
+  "source_name": "易经的智慧12始生之难.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2913.014,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:03:34Z"
+}

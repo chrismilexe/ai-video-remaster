@@ -1,0 +1,12 @@
+{
+  "asset_id": "128_57巽卦下_谦顺有为_av31579235_p60_fb746e5e",
+  "sha256": "fb746e5e074591a5c2168852c111385ae91bd504e31d194a9b5ed639d3466154",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\128_57巽卦下_谦顺有为(Av31579235,P60).flv",
+  "source_name": "128_57巽卦下_谦顺有为(Av31579235,P60).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.683,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:14:51Z"
+}

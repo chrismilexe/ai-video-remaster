@@ -1,0 +1,12 @@
+{
+  "asset_id": "35_曾仕强易经的智慧35谦恭合礼_7914271e",
+  "sha256": "7914271e8da845f4ab7a9ce93563060091d0c3261549abc140a7c02118fe6d43",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\35.曾仕强易经的智慧35谦恭合礼.flv",
+  "source_name": "35.曾仕强易经的智慧35谦恭合礼.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1791.798,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:49:34Z"
+}

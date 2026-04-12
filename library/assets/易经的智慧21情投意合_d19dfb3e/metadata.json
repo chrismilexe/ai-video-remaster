@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧21情投意合_d19dfb3e",
+  "sha256": "d19dfb3e87f60c54c838cd824fc1f37dfec76c62425e4cbfc24158a4f95390e2",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧21情投意合.mp4",
+  "source_name": "易经的智慧21情投意合.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1993.79,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:17:30Z"
+}

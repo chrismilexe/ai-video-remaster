@@ -1,0 +1,12 @@
+{
+  "asset_id": "141_63既济卦上_守成艰难_av31579235_p73_cd4f7b5e",
+  "sha256": "cd4f7b5ee48f5e6f0d06db6531a37618f5a72a8ecee4948188d45e0e830698e0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\141_63既济卦上_守成艰难(Av31579235,P73).flv",
+  "source_name": "141_63既济卦上_守成艰难(Av31579235,P73).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.731,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:29:21Z"
+}

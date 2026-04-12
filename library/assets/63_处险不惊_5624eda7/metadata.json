@@ -1,0 +1,12 @@
+{
+  "asset_id": "63_处险不惊_5624eda7",
+  "sha256": "5624eda785ed74a2b7cf5539094c94b1bd48e2e38751eab181d245ecd786232c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\63.处险不惊.flv",
+  "source_name": "63.处险不惊.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1393.551,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:56:15Z"
+}

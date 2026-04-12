@@ -1,0 +1,12 @@
+{
+  "asset_id": "125_56旅卦上_行旅之道_av31579235_p57_9772d5f1",
+  "sha256": "9772d5f191157f17d79750f6e907122789d698eeb1b755e1e01b349dd6d52575",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\125_56旅卦上_行旅之道(Av31579235,P57).flv",
+  "source_name": "125_56旅卦上_行旅之道(Av31579235,P57).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.763,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:11:51Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "143_64未济卦上_审慎进取_av31579235_p75_597c49d0",
+  "sha256": "597c49d09b8b21af49f13e13656ea3e2ab26d62a34fefcec57337857cc619bbf",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\143_64未济卦上_审慎进取(Av31579235,P75).flv",
+  "source_name": "143_64未济卦上_审慎进取(Av31579235,P75).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.96,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:31:35Z"
+}

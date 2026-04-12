@@ -1,0 +1,12 @@
+{
+  "asset_id": "124_以人为本_av31579235_p56_cd24ab85",
+  "sha256": "cd24ab8534dcffb1039d6a5cda3c86945c4dec00b509860a19ff775c4b2a23aa",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\124_以人为本(Av31579235,P56).flv",
+  "source_name": "124_以人为本(Av31579235,P56).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1781.941,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:10:44Z"
+}

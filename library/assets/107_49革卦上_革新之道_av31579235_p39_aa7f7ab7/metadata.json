@@ -1,0 +1,12 @@
+{
+  "asset_id": "107_49革卦上_革新之道_av31579235_p39_aa7f7ab7",
+  "sha256": "aa7f7ab73c6531c7d770c4290a2c438be337697ddb7352221c44c04d708b81ff",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\107_49革卦上_革新之道(Av31579235,P39).flv",
+  "source_name": "107_49革卦上_革新之道(Av31579235,P39).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1234.7,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:52:30Z"
+}

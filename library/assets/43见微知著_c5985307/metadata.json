@@ -1,0 +1,12 @@
+{
+  "asset_id": "43见微知著_c5985307",
+  "sha256": "c598530776dc5ce497aa6831ec8027cf3b95386892d8c06b97f3a1288a6043d7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\43见微知著.mp4",
+  "source_name": "43见微知著.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1410.043,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:58:33Z"
+}

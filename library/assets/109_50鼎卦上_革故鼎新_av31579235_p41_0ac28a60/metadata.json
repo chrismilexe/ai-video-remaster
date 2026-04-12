@@ -1,0 +1,12 @@
+{
+  "asset_id": "109_50鼎卦上_革故鼎新_av31579235_p41_0ac28a60",
+  "sha256": "0ac28a6005a34c07cdedd27231e1c36e5a778a369242844ea7e82ad0a5848728",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\109_50鼎卦上_革故鼎新(Av31579235,P41).flv",
+  "source_name": "109_50鼎卦上_革故鼎新(Av31579235,P41).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.298,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:54:35Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "113_52艮卦上_大忧大定_av31579235_p45_45c132b9",
+  "sha256": "45c132b99b66dc336bcc45bd97d773b33bba35516a544dec2fc841d5384b8188",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\113_52艮卦上_大忧大定(Av31579235,P45).flv",
+  "source_name": "113_52艮卦上_大忧大定(Av31579235,P45).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.58,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:58:05Z"
+}

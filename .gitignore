@@ -67,6 +67,20 @@ logs/
 .env.local
 config/library.json
 
+# Synced content library snapshot (exclude raw incoming media)
+library/incoming/
+!library/
+!library/README.md
+!library/assets/
+!library/assets/**/
+!library/assets/**/*.json
+!library/assets/**/*.srt
+!library/assets/**/*.md
+!library/manifests/
+!library/manifests/**
+!library/manifests/**/*.jsonl
+!library/manifests/**/*.log
+
 # Temporary files
 tmp/
 temp/

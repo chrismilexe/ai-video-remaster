@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧08孔子文言传_6e45dcc1",
+  "sha256": "6e45dcc138105a01a59ef1bb9c60cf350883f17f3c5bb810fae489e4c06f6c49",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧08孔子文言传.mp4",
+  "source_name": "易经的智慧08孔子文言传.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2917.786,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:58:51Z"
+}

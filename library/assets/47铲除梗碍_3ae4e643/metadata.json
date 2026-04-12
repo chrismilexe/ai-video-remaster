@@ -1,0 +1,12 @@
+{
+  "asset_id": "47铲除梗碍_3ae4e643",
+  "sha256": "3ae4e643a6754c4b51cc7f71535ef5ad89843517827df6615ec155b880ad23fc",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\47铲除梗碍.mp4",
+  "source_name": "47铲除梗碍.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1385.957,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:03:17Z"
+}

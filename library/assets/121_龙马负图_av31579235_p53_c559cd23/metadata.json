@@ -1,0 +1,12 @@
+{
+  "asset_id": "121_龙马负图_av31579235_p53_c559cd23",
+  "sha256": "c559cd23d0034e18877a0674dccf6b237f39fb0776cddd3b5b902ed1b4f206e8",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\121_龙马负图(Av31579235,P53).flv",
+  "source_name": "121_龙马负图(Av31579235,P53).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1692.408,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:06:58Z"
+}

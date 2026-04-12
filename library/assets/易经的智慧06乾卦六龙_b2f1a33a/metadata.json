@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧06乾卦六龙_b2f1a33a",
+  "sha256": "b2f1a33a964a4833f3f18fb4b230441ac62b410d399f7dda3872523a5115f75c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧06乾卦六龙.mp4",
+  "source_name": "易经的智慧06乾卦六龙.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2931.773,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:56:41Z"
+}

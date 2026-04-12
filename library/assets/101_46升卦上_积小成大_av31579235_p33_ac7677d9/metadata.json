@@ -1,0 +1,12 @@
+{
+  "asset_id": "101_46升卦上_积小成大_av31579235_p33_ac7677d9",
+  "sha256": "ac7677d985d1191fd86a64ddd81a2ce1c8a516a2333073fc062109e0d52438af",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\101_46升卦上_积小成大(Av31579235,P33).flv",
+  "source_name": "101_46升卦上_积小成大(Av31579235,P33).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.26,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:27:38Z"
+}

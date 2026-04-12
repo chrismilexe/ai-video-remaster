@@ -1,0 +1,12 @@
+{
+  "asset_id": "119_55丰卦上_求丰保丰_av31579235_p51_1fedc18f",
+  "sha256": "1fedc18f7c32cc1130310df843b925d1bb6ab85de975746fce56f6d4ca9048a7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\119_55丰卦上_求丰保丰(Av31579235,P51).flv",
+  "source_name": "119_55丰卦上_求丰保丰(Av31579235,P51).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.98,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:04:38Z"
+}

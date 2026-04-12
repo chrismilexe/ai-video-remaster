@@ -1,0 +1,12 @@
+{
+  "asset_id": "41亲临现场_9fbf982c",
+  "sha256": "9fbf982cdfcd04e3efcf8fc895b8b742aaa59e6600ac52fae5601c0fdf7e61f8",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\41亲临现场.mp4",
+  "source_name": "41亲临现场.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1405.246,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:56:24Z"
+}

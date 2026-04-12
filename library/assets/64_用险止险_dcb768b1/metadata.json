@@ -1,0 +1,12 @@
+{
+  "asset_id": "64_用险止险_dcb768b1",
+  "sha256": "dcb768b10441fc679486e85356d53b6f73eb21f39d8fd8f83172309063d2a9b0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\64.用险止险.flv",
+  "source_name": "64.用险止险.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1391.478,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:57:13Z"
+}

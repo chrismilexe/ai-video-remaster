@@ -1,0 +1,12 @@
+{
+  "asset_id": "144_64未济卦下_永怀希望_av31579235_p76_406cbb85",
+  "sha256": "406cbb85d94b417687fbd9191d84cd4fd1d986d2407948314e26ebbe0decaeda",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\144_64未济卦下_永怀希望(Av31579235,P76).flv",
+  "source_name": "144_64未济卦下_永怀希望(Av31579235,P76).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.557,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:32:44Z"
+}

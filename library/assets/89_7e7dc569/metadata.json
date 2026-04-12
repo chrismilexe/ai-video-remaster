@@ -1,0 +1,12 @@
+{
+  "asset_id": "89_7e7dc569",
+  "sha256": "7e7dc5691c3ebef5a5bfd2ccdc7cfc292d69d34eac4a929c553947b9c0d7a6fe",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\89.mp4",
+  "source_name": "89.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1433.181,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:24:39Z"
+}

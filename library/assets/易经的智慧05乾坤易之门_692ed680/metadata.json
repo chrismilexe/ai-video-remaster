@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧05乾坤易之门_692ed680",
+  "sha256": "692ed68064a6b14c118412f9ddeb91ca52a26d27d91b374ca61c8faeddc1e31d",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧05乾坤易之门.mp4",
+  "source_name": "易经的智慧05乾坤易之门.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2930.442,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:55:34Z"
+}

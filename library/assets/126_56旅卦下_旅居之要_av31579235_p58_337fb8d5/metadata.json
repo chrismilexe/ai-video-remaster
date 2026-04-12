@@ -1,0 +1,12 @@
+{
+  "asset_id": "126_56旅卦下_旅居之要_av31579235_p58_337fb8d5",
+  "sha256": "337fb8d5e9678d2a77bc663bba0187fc119389b10cd9963ab64fbf8edc8fe86d",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\126_56旅卦下_旅居之要(Av31579235,P58).flv",
+  "source_name": "126_56旅卦下_旅居之要(Av31579235,P58).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.654,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:12:54Z"
+}

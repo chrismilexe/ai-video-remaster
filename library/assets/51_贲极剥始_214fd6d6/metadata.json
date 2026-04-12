@@ -1,0 +1,12 @@
+{
+  "asset_id": "51_贲极剥始_214fd6d6",
+  "sha256": "214fd6d66f2e5cbf02560941a8a16f2b1f949cec2abe81ae66835e31e931d24b",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\51.贲极剥始.flv",
+  "source_name": "51.贲极剥始.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1796.753,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:41:24Z"
+}

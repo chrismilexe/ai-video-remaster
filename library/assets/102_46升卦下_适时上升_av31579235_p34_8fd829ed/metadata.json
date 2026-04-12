@@ -1,0 +1,12 @@
+{
+  "asset_id": "102_46升卦下_适时上升_av31579235_p34_8fd829ed",
+  "sha256": "8fd829ed3c64145dfb1b067c7c780a73edd4281898a1d559a81d931bb0039f94",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\102_46升卦下_适时上升(Av31579235,P34).flv",
+  "source_name": "102_46升卦下_适时上升(Av31579235,P34).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.226,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:29:11Z"
+}

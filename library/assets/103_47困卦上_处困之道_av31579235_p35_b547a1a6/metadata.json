@@ -1,0 +1,12 @@
+{
+  "asset_id": "103_47困卦上_处困之道_av31579235_p35_b547a1a6",
+  "sha256": "b547a1a63a5d92b721471fdcf6c3b43747df3777d685ff939a981275cae5c9ab",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\103_47困卦上_处困之道(Av31579235,P35).flv",
+  "source_name": "103_47困卦上_处困之道(Av31579235,P35).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.37,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:31:21Z"
+}

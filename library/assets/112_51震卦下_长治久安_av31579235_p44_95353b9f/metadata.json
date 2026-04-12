@@ -1,0 +1,12 @@
+{
+  "asset_id": "112_51震卦下_长治久安_av31579235_p44_95353b9f",
+  "sha256": "95353b9f28ce5d1e2b0f174974e730f96ee72109900b8863f1415bdcc1c67890",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\112_51震卦下_长治久安(Av31579235,P44).flv",
+  "source_name": "112_51震卦下_长治久安(Av31579235,P44).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.011,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:57:03Z"
+}

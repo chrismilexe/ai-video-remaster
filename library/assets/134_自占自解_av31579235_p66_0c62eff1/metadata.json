@@ -1,0 +1,12 @@
+{
+  "asset_id": "134_自占自解_av31579235_p66_0c62eff1",
+  "sha256": "0c62eff1b34e2a3eb07ef97db7e87054c81678ce101bf666010a24cb335a3a76",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\134_自占自解(Av31579235,P66).flv",
+  "source_name": "134_自占自解(Av31579235,P66).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1837.7,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:21:28Z"
+}

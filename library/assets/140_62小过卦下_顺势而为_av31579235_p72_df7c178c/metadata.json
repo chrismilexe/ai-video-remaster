@@ -1,0 +1,12 @@
+{
+  "asset_id": "140_62小过卦下_顺势而为_av31579235_p72_df7c178c",
+  "sha256": "df7c178c97a0a56badc9be7e14af25d3fb58a65410abbcf7fedf14f46da992fb",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\140_62小过卦下_顺势而为(Av31579235,P72).flv",
+  "source_name": "140_62小过卦下_顺势而为(Av31579235,P72).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1386.06,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:28:19Z"
+}

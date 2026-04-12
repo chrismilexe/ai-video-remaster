@@ -1,0 +1,12 @@
+{
+  "asset_id": "123_天人合德_av31579235_p55_473e813f",
+  "sha256": "473e813fbea24689eef4df1c4357f0490df20458a5738bf54e9a4b9ec25ffd90",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\123_天人合德(Av31579235,P55).flv",
+  "source_name": "123_天人合德(Av31579235,P55).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1757.692,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:09:25Z"
+}

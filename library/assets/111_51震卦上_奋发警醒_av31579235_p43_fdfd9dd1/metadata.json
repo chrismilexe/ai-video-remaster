@@ -1,0 +1,12 @@
+{
+  "asset_id": "111_51震卦上_奋发警醒_av31579235_p43_fdfd9dd1",
+  "sha256": "fdfd9dd1fa31f9e5227de865cbb0454e89f0fdcab0e87137063709048a5dda63",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\111_51震卦上_奋发警醒(Av31579235,P43).flv",
+  "source_name": "111_51震卦上_奋发警醒(Av31579235,P43).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.403,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:56:21Z"
+}

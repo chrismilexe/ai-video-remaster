@@ -1,0 +1,12 @@
+{
+  "asset_id": "93损极而益_be86e384",
+  "sha256": "be86e38496539a9d94360f15bdd3fe562638a1f4dbe28686fa5a8ab57d7cc6e0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\93损极而益.mp4",
+  "source_name": "93损极而益.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1562.56,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:29:27Z"
+}

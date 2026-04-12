@@ -1,0 +1,12 @@
+{
+  "asset_id": "110_50鼎卦下_礼贤下士_av31579235_p42_3ee0b684",
+  "sha256": "3ee0b68415c8cfe78b4732e4a842cc0be262011d30fd946f420412149884a581",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\110_50鼎卦下_礼贤下士(Av31579235,P42).flv",
+  "source_name": "110_50鼎卦下_礼贤下士(Av31579235,P42).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.785,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:55:34Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "106_48井卦下_供养无穷_av31579235_p38_76a5eaca",
+  "sha256": "76a5eaca2ffca9b06d4946c360acf908ef29493408c2e5061a15533028eec58c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\106_48井卦下_供养无穷(Av31579235,P38).flv",
+  "source_name": "106_48井卦下_供养无穷(Av31579235,P38).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.197,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:51:36Z"
+}

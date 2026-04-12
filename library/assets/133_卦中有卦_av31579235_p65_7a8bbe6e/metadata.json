@@ -1,0 +1,12 @@
+{
+  "asset_id": "133_卦中有卦_av31579235_p65_7a8bbe6e",
+  "sha256": "7a8bbe6ee1688ea1c48a789ef6f973a89237929337611a47a3cccee31f56ea5f",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\133_卦中有卦(Av31579235,P65).flv",
+  "source_name": "133_卦中有卦(Av31579235,P65).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1536.544,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:20:12Z"
+}

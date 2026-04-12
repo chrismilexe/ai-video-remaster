@@ -1,0 +1,12 @@
+{
+  "asset_id": "83_8f9a8efa",
+  "sha256": "8f9a8efa5606bed34d2c319ecadf781cbb210ac10f77a59bbdfce54c9b082928",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\83.mp4",
+  "source_name": "83.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1431.123,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:18:10Z"
+}

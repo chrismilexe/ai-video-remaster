@@ -1,0 +1,12 @@
+{
+  "asset_id": "66_光明大道_c7ac4a2a",
+  "sha256": "c7ac4a2a103c2b246985d4eedbc5b72d664d24a13d0fe9087e2d9081f007a868",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\66.光明大道.flv",
+  "source_name": "66.光明大道.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1382.521,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:59:27Z"
+}

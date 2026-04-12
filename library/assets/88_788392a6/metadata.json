@@ -1,0 +1,12 @@
+{
+  "asset_id": "88_788392a6",
+  "sha256": "788392a66134c86b87ffecf007e40f13e2afea4906c8ea2701eafca40b3cafb0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\88.mp4",
+  "source_name": "88.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1433.262,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:23:36Z"
+}

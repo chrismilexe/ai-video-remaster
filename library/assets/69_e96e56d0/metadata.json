@@ -1,0 +1,12 @@
+{
+  "asset_id": "69_e96e56d0",
+  "sha256": "e96e56d018b36321c9d42e906532eaf8aebba83bfc0b3b9dcb0f8be00344b208",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\69.mp4",
+  "source_name": "69.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1427.386,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:02:45Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "30_曾仕强易经的智慧30无道则愚_0408ef12",
+  "sha256": "0408ef12c1b8be63e2b410e75dea749aef092c3284d0e3440d5441318cf6c4f0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\30.曾仕强易经的智慧30无道则愚.flv",
+  "source_name": "30.曾仕强易经的智慧30无道则愚.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1793.311,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:43:35Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "23_曾仕强易经的智慧23小有畜聚_fceaa80a",
+  "sha256": "fceaa80a0a5e07041e8cdd248ac0eee80321b064ee50b449813a68269518ee05",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\23.曾仕强易经的智慧23小有畜聚.flv",
+  "source_name": "23.曾仕强易经的智慧23小有畜聚.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1788.563,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:35:01Z"
+}

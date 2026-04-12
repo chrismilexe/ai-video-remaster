@@ -1,0 +1,12 @@
+{
+  "asset_id": "53_剥极而复_8bcb1e0a",
+  "sha256": "8bcb1e0a01c63d9bce5e0c1fb91b98224f398e4a960504ba2e705f0f4640a070",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\53.剥极而复.flv",
+  "source_name": "53.剥极而复.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1794.98,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:43:51Z"
+}

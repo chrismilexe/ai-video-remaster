@@ -1,0 +1,12 @@
+{
+  "asset_id": "52_硕果不食_9b91aa48",
+  "sha256": "9b91aa48710c79db6d7cda24662e05f3216842ed82dd5b4a50ad9d8295e5d794",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\52.硕果不食.flv",
+  "source_name": "52.硕果不食.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1739.799,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:42:37Z"
+}

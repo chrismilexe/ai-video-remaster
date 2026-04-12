@@ -1,0 +1,12 @@
+{
+  "asset_id": "62_化解大过_257e0fcc",
+  "sha256": "257e0fccaa7233e531052a70d99099c96a13b57c74afd72268ebd31fd7be959b",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\62.化解大过.flv",
+  "source_name": "62.化解大过.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1666.106,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:55:09Z"
+}

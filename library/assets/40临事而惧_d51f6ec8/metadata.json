@@ -1,0 +1,12 @@
+{
+  "asset_id": "40临事而惧_d51f6ec8",
+  "sha256": "d51f6ec8b9bfc29353b2b6e4d2e078fb02545127329cff550e0a60737959e344",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\40临事而惧.mp4",
+  "source_name": "40临事而惧.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1416.054,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:55:22Z"
+}

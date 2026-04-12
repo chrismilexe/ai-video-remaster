@@ -1,0 +1,12 @@
+{
+  "asset_id": "72_3b022edb",
+  "sha256": "3b022edbf4f3bd0e9cfbcd1e11d9e68b715208ca0a172f3f1c49c57e20a059d7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\72.mp4",
+  "source_name": "72.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1430.866,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:06:26Z"
+}

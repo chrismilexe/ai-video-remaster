@@ -1,0 +1,12 @@
+{
+  "asset_id": "80_ba4a1087",
+  "sha256": "ba4a108760bde7f92d35e8f6d19b557a8ccec928b2a7ce895d8ddb2516cbd517",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\80.mp4",
+  "source_name": "80.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1435.982,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:15:02Z"
+}

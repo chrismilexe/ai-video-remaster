@@ -1,0 +1,12 @@
+{
+  "asset_id": "135_60节卦上_调节得宜_av31579235_p67_94e0e8d7",
+  "sha256": "94e0e8d7b50f698a65d64b0f343e932bbb65936c23b914b4de9fab922649e119",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\135_60节卦上_调节得宜(Av31579235,P67).flv",
+  "source_name": "135_60节卦上_调节得宜(Av31579235,P67).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.975,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:22:31Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "42观察瞻仰_6ccfaddb",
+  "sha256": "6ccfaddbbd6382fe886be41a7b4f4fc4403fd73945cc9ea8b5ebdbb4ec68b68c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\42观察瞻仰.mp4",
+  "source_name": "42观察瞻仰.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1372.307,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:57:29Z"
+}

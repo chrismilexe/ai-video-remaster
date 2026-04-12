@@ -1,0 +1,12 @@
+{
+  "asset_id": "98宣扬文化_4ac227cf",
+  "sha256": "4ac227cf9cb1d52da654a47c9436781ae97a0cb790cf6d1f904bfc2b78ee631a",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\98宣扬文化.mp4",
+  "source_name": "98宣扬文化.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1403.26,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:35:06Z"
+}

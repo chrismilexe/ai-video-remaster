@@ -1,0 +1,12 @@
+{
+  "asset_id": "67_易经体例_cc52e4dd",
+  "sha256": "cc52e4ddd73ab3f30ef01b9f7e804a37c72fb2c09fea625c2021725d6e3ad5b1",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\67.易经体例.flv",
+  "source_name": "67.易经体例.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1802.062,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:00:33Z"
+}

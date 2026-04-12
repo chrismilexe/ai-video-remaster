@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧09阳极成阴_28bf14a0",
+  "sha256": "28bf14a02a32d12aa28daec9c7e3d4ef37359108f36a24b3dee590047c40adab",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧09阳极成阴.mp4",
+  "source_name": "易经的智慧09阳极成阴.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2912.907,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:59:58Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "116_53渐卦下_悠久稳健_av31579235_p48_68f62ad0",
+  "sha256": "68f62ad004f5a75b17b98873e38e5bdae87145f1eae04b76262970073f99dc52",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\116_53渐卦下_悠久稳健(Av31579235,P48).flv",
+  "source_name": "116_53渐卦下_悠久稳健(Av31579235,P48).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1390.017,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:01:20Z"
+}

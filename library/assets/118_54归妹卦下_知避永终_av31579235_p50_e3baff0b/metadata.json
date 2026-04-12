@@ -1,0 +1,12 @@
+{
+  "asset_id": "118_54归妹卦下_知避永终_av31579235_p50_e3baff0b",
+  "sha256": "e3baff0bac1943b93add75b46d1bcb488002c566c70e8962a18cb2c7cc332a53",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\118_54归妹卦下_知避永终(Av31579235,P50).flv",
+  "source_name": "118_54归妹卦下_知避永终(Av31579235,P50).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.281,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:03:31Z"
+}

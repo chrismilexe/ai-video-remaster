@@ -1,0 +1,12 @@
+{
+  "asset_id": "117_54归妹卦上_情理难抉_av31579235_p49_db733407",
+  "sha256": "db733407dd40127e2fff0b161e38423fee627a640df0649acd2565f2c2424378",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\117_54归妹卦上_情理难抉(Av31579235,P49).flv",
+  "source_name": "117_54归妹卦上_情理难抉(Av31579235,P49).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.763,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:02:24Z"
+}

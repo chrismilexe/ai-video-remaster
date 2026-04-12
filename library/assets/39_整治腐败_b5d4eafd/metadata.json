@@ -1,0 +1,12 @@
+{
+  "asset_id": "39_整治腐败_b5d4eafd",
+  "sha256": "b5d4eafd4306d6f4be80f828235643748e28a7681b647c1702b9361a023784a7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\39.整治腐败.mp4",
+  "source_name": "39.整治腐败.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1378.851,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:54:17Z"
+}

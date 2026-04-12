@@ -1,0 +1,12 @@
+{
+  "asset_id": "50装扮得体_cc7de83a",
+  "sha256": "cc7de83abfb56903b46c395e4e5d567a0a3b8a9c6a8c77150e80a76aa6b783da",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\50装扮得体.mp4",
+  "source_name": "50装扮得体.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1385.491,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:22:02Z"
+}

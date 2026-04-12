@@ -1,0 +1,12 @@
+{
+  "asset_id": "59_颐养之道_b8634cde",
+  "sha256": "b8634cdec66fe492c2221e321a86315b9e00813f6c0814072aabc3c53bc47b09",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\59.颐养之道.flv",
+  "source_name": "59.颐养之道.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1769.486,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:51:34Z"
+}

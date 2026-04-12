@@ -1,0 +1,12 @@
+{
+  "asset_id": "49人文精神_8e5d447f",
+  "sha256": "8e5d447f3de602d5352f3706cde833d2fe94ff25fd62dd1b3c520fd331a20d67",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\49人文精神.mp4",
+  "source_name": "49人文精神.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1384.833,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:41:17Z"
+}

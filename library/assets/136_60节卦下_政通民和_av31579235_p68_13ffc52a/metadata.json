@@ -1,0 +1,12 @@
+{
+  "asset_id": "136_60节卦下_政通民和_av31579235_p68_13ffc52a",
+  "sha256": "13ffc52a6920cd7178a00deeccb13eb36f7210d4c5b29db0c2e8ef2b5683fcc0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\136_60节卦下_政通民和(Av31579235,P68).flv",
+  "source_name": "136_60节卦下_政通民和(Av31579235,P68).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.982,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:23:39Z"
+}

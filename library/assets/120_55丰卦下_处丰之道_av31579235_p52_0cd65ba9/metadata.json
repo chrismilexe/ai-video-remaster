@@ -1,0 +1,12 @@
+{
+  "asset_id": "120_55丰卦下_处丰之道_av31579235_p52_0cd65ba9",
+  "sha256": "0cd65ba9f0a833c625d22c055e00de7d019c547edae303402f151a0a586aa1b2",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\120_55丰卦下_处丰之道(Av31579235,P52).flv",
+  "source_name": "120_55丰卦下_处丰之道(Av31579235,P52).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.951,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:05:45Z"
+}

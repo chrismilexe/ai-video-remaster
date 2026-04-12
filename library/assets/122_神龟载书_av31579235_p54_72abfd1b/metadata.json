@@ -1,0 +1,12 @@
+{
+  "asset_id": "122_神龟载书_av31579235_p54_72abfd1b",
+  "sha256": "72abfd1bdcbafa863381eeed9f326fbe67702301b1e513b5e57fd34c4ddc9b55",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\122_神龟载书(Av31579235,P54).flv",
+  "source_name": "122_神龟载书(Av31579235,P54).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1804.602,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:08:12Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "58_慎始敬终_d0656e13",
+  "sha256": "d0656e13fd95811ead3bdfc132ffd2429787c26c435e3570394c7d06a2d659d0",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\58.慎始敬终.flv",
+  "source_name": "58.慎始敬终.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1838.586,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:50:20Z"
+}

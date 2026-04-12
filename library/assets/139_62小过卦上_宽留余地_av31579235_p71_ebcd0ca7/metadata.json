@@ -1,0 +1,12 @@
+{
+  "asset_id": "139_62小过卦上_宽留余地_av31579235_p71_ebcd0ca7",
+  "sha256": "ebcd0ca7a69a98e26e01dc9092f6233f370ef07855a08da9b6df476c647e292c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\139_62小过卦上_宽留余地(Av31579235,P71).flv",
+  "source_name": "139_62小过卦上_宽留余地(Av31579235,P71).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.831,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:27:11Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "65_向上提升_07b1c2b6",
+  "sha256": "07b1c2b6491b4c3c95bcd4f432f09f0b7035c08e2dc36922b5d3450dd33245d4",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\65.向上提升.flv",
+  "source_name": "65.向上提升.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1377.772,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:58:20Z"
+}

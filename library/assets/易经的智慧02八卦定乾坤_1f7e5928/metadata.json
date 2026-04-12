@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧02八卦定乾坤_1f7e5928",
+  "sha256": "1f7e59287611e2a34bf9458208cba30d387da4f9832b17910b5cefd94eab3ef4",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧02八卦定乾坤.mp4",
+  "source_name": "易经的智慧02八卦定乾坤.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2946.487,
+  "status": "done",
+  "ingested_at": "2026-04-09T13:52:18Z"
+}

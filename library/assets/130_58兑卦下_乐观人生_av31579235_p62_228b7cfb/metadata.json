@@ -1,0 +1,12 @@
+{
+  "asset_id": "130_58兑卦下_乐观人生_av31579235_p62_228b7cfb",
+  "sha256": "228b7cfb5afee95fa9cdb11f579ab4184b2ff528b5dea18ffd9aa0fa886654cc",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\130_58兑卦下_乐观人生(Av31579235,P62).flv",
+  "source_name": "130_58兑卦下_乐观人生(Av31579235,P62).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.612,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:16:51Z"
+}

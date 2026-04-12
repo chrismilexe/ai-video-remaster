@@ -1,0 +1,12 @@
+{
+  "asset_id": "104_47困卦下_坚持正理_av31579235_p36_fb673520",
+  "sha256": "fb673520df5b0cd8b48b0951b02473c9009d3745e7aa7b4f945739241502f27c",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\104_47困卦下_坚持正理(Av31579235,P36).flv",
+  "source_name": "104_47困卦下_坚持正理(Av31579235,P36).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.757,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:46:00Z"
+}

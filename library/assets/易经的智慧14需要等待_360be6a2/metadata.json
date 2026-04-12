@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧14需要等待_360be6a2",
+  "sha256": "360be6a27c6836e222a118c3d71504d1e34814ecc6bea7a266dfad7612601146",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧14需要等待.mp4",
+  "source_name": "易经的智慧14需要等待.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2933.075,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:06:45Z"
+}

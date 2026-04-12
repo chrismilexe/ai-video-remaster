@@ -1,0 +1,12 @@
+{
+  "asset_id": "57_大畜德性_f72d1cd0",
+  "sha256": "f72d1cd071064bc6f8b30608227dcd4c663a0cde92c0195c553f16969dcb9fbc",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\57.大畜德性.flv",
+  "source_name": "57.大畜德性.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1776.983,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:49:05Z"
+}

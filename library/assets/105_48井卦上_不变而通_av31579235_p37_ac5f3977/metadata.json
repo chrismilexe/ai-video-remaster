@@ -1,0 +1,12 @@
+{
+  "asset_id": "105_48井卦上_不变而通_av31579235_p37_ac5f3977",
+  "sha256": "ac5f3977a14402a3d03cfd6b83ca9eaafc77c1157c9e2c4ae59094c1d842a14e",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\105_48井卦上_不变而通(Av31579235,P37).flv",
+  "source_name": "105_48井卦上_不变而通(Av31579235,P37).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.527,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:48:53Z"
+}

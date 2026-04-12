@@ -1,0 +1,12 @@
+{
+  "asset_id": "127_57巽卦上_柔得其宜_av31579235_p59_8d4e2930",
+  "sha256": "8d4e293051ff1cc2132e4d0a07262313e6038c6f6e3f87b770f8cf942fb63527",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\127_57巽卦上_柔得其宜(Av31579235,P59).flv",
+  "source_name": "127_57巽卦上_柔得其宜(Av31579235,P59).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.886,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:14:02Z"
+}

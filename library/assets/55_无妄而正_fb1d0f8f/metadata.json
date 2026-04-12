@@ -1,0 +1,12 @@
+{
+  "asset_id": "55_无妄而正_fb1d0f8f",
+  "sha256": "fb1d0f8ff3e28c7ade7d7488c5952a6c566c3098ce3044345f964c3780074686",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\55.无妄而正.flv",
+  "source_name": "55.无妄而正.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1809.549,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:46:35Z"
+}

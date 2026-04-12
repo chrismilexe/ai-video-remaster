@@ -1,0 +1,12 @@
+{
+  "asset_id": "56_避祸成事_01c7ec6d",
+  "sha256": "01c7ec6de7962a8116d39cf5900590f69b2ef221a7e2993ebfc90343de33b660",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\56.避祸成事.flv",
+  "source_name": "56.避祸成事.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1828.209,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:47:52Z"
+}

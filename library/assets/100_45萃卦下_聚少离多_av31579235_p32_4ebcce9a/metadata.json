@@ -1,0 +1,12 @@
+{
+  "asset_id": "100_45萃卦下_聚少离多_av31579235_p32_4ebcce9a",
+  "sha256": "4ebcce9a8257df90cae13973278223595d202145d3c2c5ba13a3e25fd62df860",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\100_45萃卦下_聚少离多(Av31579235,P32).flv",
+  "source_name": "100_45萃卦下_聚少离多(Av31579235,P32).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1388.007,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:26:13Z"
+}

@@ -1,0 +1,3 @@
+[batch-ingest] library_root=D:\Video2AudioLibrary
+[batch-ingest] discovered_files=124
+[summary] processed=0 skipped=0 failed=124 manifest=D:\Video2AudioLibrary\manifests\library_index.jsonl

@@ -1,0 +1,12 @@
+{
+  "asset_id": "92为道日损_c4c4c6a5",
+  "sha256": "c4c4c6a504cf766f8a1eab42c4ceddfecec7d1c17855cce1184481fe1db5a021",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\92为道日损.mp4",
+  "source_name": "92为道日损.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1733.634,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:28:24Z"
+}

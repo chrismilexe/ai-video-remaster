@@ -1,0 +1,12 @@
+{
+  "asset_id": "114_52艮卦下_止其所止_av31579235_p46_1bb3133b",
+  "sha256": "1bb3133b9195a88adfacb7479929db9180626fe6d652faa61bf7de805eac41a1",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\114_52艮卦下_止其所止(Av31579235,P46).flv",
+  "source_name": "114_52艮卦下_止其所止(Av31579235,P46).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.138,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:59:11Z"
+}

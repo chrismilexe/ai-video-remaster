@@ -1,0 +1,12 @@
+{
+  "asset_id": "48治狱之道_1d45a324",
+  "sha256": "1d45a324c0c502c09dd2faa623a1d45ffc72ad25dc9655e8ffc8956feef2df73",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\48治狱之道.mp4",
+  "source_name": "48治狱之道.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1395.479,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:13:09Z"
+}

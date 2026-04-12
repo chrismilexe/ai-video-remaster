@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧19师出正道_6fc3ff89",
+  "sha256": "6fc3ff890801ecd99089e057b47602602df3f11e7df9d020728331abc673af8e",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧19师出正道.mp4",
+  "source_name": "易经的智慧19师出正道.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2017.939,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:14:29Z"
+}

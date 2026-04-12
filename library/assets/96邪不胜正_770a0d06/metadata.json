@@ -1,0 +1,12 @@
+{
+  "asset_id": "96邪不胜正_770a0d06",
+  "sha256": "770a0d06856e6d78b395ad634db5963dc730615a463f251968a5088166119b0f",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\96邪不胜正.mp4",
+  "source_name": "96邪不胜正.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1524.923,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:32:59Z"
+}

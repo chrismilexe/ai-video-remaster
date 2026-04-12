@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧20亲比和谐_23dfa5bd",
+  "sha256": "23dfa5bdbd87ba7ad091859ac4746b6861941faa158028b4a442b3094269b24a",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧20亲比和谐.mp4",
+  "source_name": "易经的智慧20亲比和谐.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2568.786,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:16:01Z"
+}

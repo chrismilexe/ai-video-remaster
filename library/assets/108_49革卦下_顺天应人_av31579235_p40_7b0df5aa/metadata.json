@@ -1,0 +1,12 @@
+{
+  "asset_id": "108_49革卦下_顺天应人_av31579235_p40_7b0df5aa",
+  "sha256": "7b0df5aaa8b46618795a41928f2371860757d2974fe906766077b586695fc270",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\108_49革卦下_顺天应人(Av31579235,P40).flv",
+  "source_name": "108_49革卦下_顺天应人(Av31579235,P40).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.21,
+  "status": "done",
+  "ingested_at": "2026-04-09T22:53:27Z"
+}

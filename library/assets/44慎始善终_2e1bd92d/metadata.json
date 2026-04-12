@@ -1,0 +1,12 @@
+{
+  "asset_id": "44慎始善终_2e1bd92d",
+  "sha256": "2e1bd92dcb46996238e4f0e3bc81c64cef29a3daeed77146747ce9556f408935",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\44慎始善终.mp4",
+  "source_name": "44慎始善终.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1408.475,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:59:42Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "84_2e61a0e3",
+  "sha256": "2e61a0e3c2fc359d972acc4b62969d4b32350df020b1b406a1efef5bb18512a7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\84.mp4",
+  "source_name": "84.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1422.438,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:19:16Z"
+}

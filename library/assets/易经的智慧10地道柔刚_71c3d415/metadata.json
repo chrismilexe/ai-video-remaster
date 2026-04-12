@@ -1,0 +1,12 @@
+{
+  "asset_id": "易经的智慧10地道柔刚_71c3d415",
+  "sha256": "71c3d41575f539ac94e742961903e3874cbf9472a9b1fb39dc0fa810c2299941",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\易经的智慧10地道柔刚.mp4",
+  "source_name": "易经的智慧10地道柔刚.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 2929.903,
+  "status": "done",
+  "ingested_at": "2026-04-09T14:01:07Z"
+}

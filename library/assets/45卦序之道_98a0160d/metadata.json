@@ -1,0 +1,12 @@
+{
+  "asset_id": "45卦序之道_98a0160d",
+  "sha256": "98a0160d6a207bcce483efee1b0ba001de75c65b594aabea7c9460b796b9a764",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\45卦序之道.mp4",
+  "source_name": "45卦序之道.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1368.24,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:00:49Z"
+}

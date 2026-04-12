@@ -1,0 +1,12 @@
+{
+  "asset_id": "54_复兴之路_35bd36ae",
+  "sha256": "35bd36ae8fa83b570745eeeaf952604d0358bb607fcc710cbc07c67db40e10e3",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\54.复兴之路.flv",
+  "source_name": "54.复兴之路.flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1791.709,
+  "status": "done",
+  "ingested_at": "2026-04-10T00:45:07Z"
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "142_63既济卦下_福过灾生_av31579235_p74_161737c5",
+  "sha256": "161737c5e5c2e93a5362d2c8e4aceb7c05a2f70eddd6a35a6032a9fdbc890dde",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\142_63既济卦下_福过灾生(Av31579235,P74).flv",
+  "source_name": "142_63既济卦下_福过灾生(Av31579235,P74).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.719,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:30:27Z"
+}

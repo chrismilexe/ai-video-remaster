@@ -1,0 +1,12 @@
+{
+  "asset_id": "91为道日损_dc968198",
+  "sha256": "dc968198412a3ed735ae018cfbf59f2e1223d2d4ab0e9e8fc4bcfd8c2f5f1d8a",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\91为道日损.mp4",
+  "source_name": "91为道日损.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1733.542,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:27:10Z"
+}

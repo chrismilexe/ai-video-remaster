@@ -1,0 +1,7 @@
+所在位置 行:2 字符: 30
++ $env:PATH = $envRoot;$envRoot\Scripts; + $env:PATH
++                              ~~~~~~~~
+表达式或语句中包含意外的标记“\Scripts”。
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

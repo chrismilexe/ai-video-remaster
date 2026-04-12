@@ -1,0 +1,12 @@
+{
+  "asset_id": "90损以修己_9323ea34",
+  "sha256": "9323ea34e750041cabf982a825557284f1ebbe96582c64ff1913ab326d574ed7",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\90损以修己.mp4",
+  "source_name": "90损以修己.mp4",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1828.905,
+  "status": "done",
+  "ingested_at": "2026-04-10T01:25:56Z"
+}

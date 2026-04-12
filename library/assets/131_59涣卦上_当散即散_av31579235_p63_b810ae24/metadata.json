@@ -1,0 +1,12 @@
+{
+  "asset_id": "131_59涣卦上_当散即散_av31579235_p63_b810ae24",
+  "sha256": "b810ae247f41967dbed89a8af23b41479afc4724025bc328990268c2950a2062",
+  "source_path": "D:\\Video2AudioLibrary\\incoming\\131_59涣卦上_当散即散(Av31579235,P63).flv",
+  "source_name": "131_59涣卦上_当散即散(Av31579235,P63).flv",
+  "model": "large-v3",
+  "language": "zh",
+  "diarized": false,
+  "duration_seconds": 1389.775,
+  "status": "done",
+  "ingested_at": "2026-04-09T23:17:55Z"
+}
