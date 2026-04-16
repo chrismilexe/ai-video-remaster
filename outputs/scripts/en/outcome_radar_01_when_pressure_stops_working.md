@@ -9,7 +9,7 @@ China says the latest U.S. tariff moves could damage trade ties and warns that c
 
 ## Current Event Context
 
-This radar episode is built around the renewed U.S.-China tariff confrontation reported by AP in late March 2026, when Beijing warned that additional tariff pressure could further damage bilateral trade relations.
+This radar episode is built around the renewed U.S.-China tariff confrontation reported by AP on March 16, 2026, when Beijing warned that additional tariff pressure could further damage bilateral trade relations.
 
 ## Script
 
@@ -115,5 +115,5 @@ the system is already moving toward a more expensive fight.
 
 ## Source Notes
 
-- AP reported on March 27, 2026 that China warned the latest U.S. tariff moves could further damage trade ties.
+- AP reported on March 16, 2026 that China warned the latest U.S. tariff moves could further damage trade ties.
 - The broader pattern in the article was continued escalation and retaliatory signaling rather than visible de-escalation.
