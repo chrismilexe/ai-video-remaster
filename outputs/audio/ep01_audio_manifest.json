@@ -1,0 +1,21 @@
+{
+  "episode_id": "ep01",
+  "episode_title": "Why Smart People Keep Making Bad Timing Decisions",
+  "default_reference_audio": "outputs/reference.wav",
+  "default_reference_text": "outputs/ref_text.txt",
+  "default_reference_text_preview": "商业，它确实是个很简单的。在中国只有两种人，一种是从农业，一种是在工业。在这个过程当中，简单的规划就是，要么技术不要，要么环境不要，要么制度不要，要么... 2014年东莞扫...",
+  "sample_input": "outputs/audio/ep01_sample_input.txt",
+  "sample_word_count": 190,
+  "sample_tts_input": "outputs/audio/ep01_sample_tts_input.txt",
+  "sample_tts_word_count": 185,
+  "full_input": "outputs/audio/ep01_full_input.txt",
+  "full_word_count": 1229,
+  "full_tts_input": "outputs/audio/ep01_full_tts_input.txt",
+  "full_tts_word_count": 1183,
+  "expected_sample_output": "outputs/audio/ep01_sample.wav",
+  "expected_preferred_sample_output": "outputs/audio/ep01_sample_en_ref.wav",
+  "expected_full_output": "outputs/audio/ep01_full.wav",
+  "preferred_local_reference_audio": "outputs/record_20260420.wav",
+  "preferred_local_reference_text": "outputs/ref_text_en_20260420.txt",
+  "preferred_local_reference_text_preview": "What this means in real life is simple. Good timing beats blind pressure, and clarity matters more than force."
+}

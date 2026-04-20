@@ -27,7 +27,7 @@
 
 | Episode | Title | Priority | Status | Next Action | Notes |
 |---|---|---:|---|---|---|
-| EP01 | Why Smart People Keep Making Bad Timing Decisions | High | en_master | 做样音 | 首发样板集 |
+| EP01 | Why Smart People Keep Making Bad Timing Decisions | High | audio_done | 做长视频 | 长音频已完成，进入视频装配 |
 | EP02 | When More Force Makes You Lose | High | idea | 整理中文源稿 | 第二个最适合上线 |
 | EP03 | What Anxiety Is Really Telling You | High | idea | 先出英文初稿 | 短视频潜力高 |
 | EP04 | How to Know When a Situation Is Turning Against You | High | idea | 先做题纲 | 局势判断向 |

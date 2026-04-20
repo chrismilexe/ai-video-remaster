@@ -3,6 +3,20 @@
 > 在 RTX 4090 上本地部署全流程AI视频重制工具链  
 > 从Mac通过Web UI远程控制
 
+## 当前阶段（2026-04-21）
+
+项目已经从“内容整理和脚本准备”进入“成品生产”阶段。
+
+- `EP01` 的英文主稿、短视频脚本、长视频视觉脚本、发布包已经完成
+- GPT-SoVITS 本地运行环境已经修通，`EP01` 的样音和整集长音频已经在本地生成
+- 当前主任务已经不是继续写稿，而是把 `EP01` 长音频装配成视频，并切出 Shorts
+
+建议先看：
+
+- `docs/CURRENT_STAGE.md`
+- `docs/EP01_AUDIO_RUNBOOK.md`
+- `docs/CONTENT_BOARD.md`
+
 ## 当前内容品牌
 
 - Show Name: `The Outcome Code`
@@ -88,10 +102,13 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run_batch_ingest.ps1 --fast -
 
 | 文档 | 用途 | 什么时候看 |
 |------|------|-----------|
+| **docs/CURRENT_STAGE.md** | 当前项目阶段说明 | **先看这个** |
 | **QUICKSTART.md** | 今晚部署步骤 | 🎯 **现在就看** |
 | **README-DEPLOY.md** | 详细部署说明 | 遇到问题查看 |
 | **MODELS-2026.md** | 模型选择与优化 | 部署完成后调优 |
 | **REMOTE-CONTROL.md** | 远程控制配置 | 需要SSH控制时 |
+| **docs/EP01_AUDIO_RUNBOOK.md** | EP01 音频现状与交接说明 | 准备做视频时看 |
+| **docs/CONTENT_BOARD.md** | 分集推进状态 | 每天开工前看 |
 | **docs/WINDOWS11_BATCH_INGEST_RUNBOOK.md** | Windows 11 批量入库执行手册 | 回家后直接按它跑 |
 
 ---
