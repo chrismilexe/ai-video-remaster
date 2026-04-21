@@ -43,13 +43,15 @@ outputs/
 outputs/*
 *.mp4
 *.mp3
-*.wav
 *.srt
 *.txt
 !requirements.txt
 !outputs/
 !outputs/**/
 !outputs/**/*.md
+!outputs/*.wav
+!outputs/**/*.wav
+outputs/audio/output.wav
 
 # Models (大文件，不应提交)
 models/
