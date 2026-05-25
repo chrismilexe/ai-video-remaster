@@ -1,8 +1,8 @@
 # AI音频内容项目 - 全流程总纲
 
-**最后更新**: 2026-04-02  
-**当前分支**: main  
-**文档定位**: 项目全流程、平台策略、内容策略、商业化路径
+**最后更新**: 2026-05-25  
+**当前分支**: codex/first-content-batch  
+**文档定位**: 项目全流程、平台策略、内容策略、商业化路径、已完成/待办事项
 
 ## 1. 项目定义
 
@@ -689,3 +689,108 @@ Editing Notes:
 - 长音频能听，但视频不好看
 - 长视频有画面，但帮助不大
 - 短视频只是硬切，不利于传播
+
+## 15. 已完成工作（2026-05-08 ~ 05-09）
+
+### 15.1 音頻生成引擎升級
+
+- **棄用 GPT-SoVITS**（中文優先，英文有口音、語調偏平）
+- **改用 Chatterbox Turbo**（Resemble AI, MIT 授權）
+  - 英文原生引擎，零中文口音
+  - 零樣本聲音克隆，使用 `record_20260420.wav`（10s 英文男聲）
+  - exaggeration=0.5 參數，語調自然有起伏
+  - 運行環境：Mac Apple Silicon MPS，本地執行
+- **分段生成+拼接方案**：Chatterbox 有輸入長度限制，長腳本需拆成段落（每段 2-4 句），逐段生成後拼接，段間插入 0.5s 靜音
+
+### 15.2 已生成內容（8 集，合計 ~55 分鐘）
+
+| # | 標籤 | 檔案 | 大小 | 內容 |
+|---|---|---|---|---|
+| 1 | EP01 | ep01_full_chatterbox.wav | 40MB | Why Smart People Keep Making Bad Timing Decisions |
+| 2 | EP02 | ep02_full_chatterbox.wav | 38MB | When More Force Makes You Lose |
+| 3 | EP03 | ep03_full_chatterbox.wav | 37MB | What Anxiety Is Really Telling You |
+| 4 | EP04 | ep04_full_chatterbox.wav | 32MB | How to Know When a Situation Is Turning |
+| 5 | RADAR01 | radar01_full_chatterbox.wav | 15MB | When Pressure Produces Retaliation |
+| 6 | RADAR02 | radar02_full_chatterbox.wav | 22MB | When Identity Costs the Business |
+| 7 | CASE01 | case01_full_chatterbox.wav | 24MB | What Happens When Power Loses Balance |
+| 8 | TRUMP | trump_full_chatterbox.wav | 31MB | Trump, Force, and the Collapse of Balance |
+
+生成工具鏈：
+- `scripts/generate_chatterbox_sample.py` — 單集樣音多參數對比
+- `scripts/generate_ep01_chunked.py` — 分段生成+拼接
+- `scripts/generate_all_episodes.py` — 批次生成全部集數
+
+流程文檔：`docs/AUDIO_PIPELINE.md`
+
+### 15.3 音頻成本核算
+
+DeepSeek V4 Pro 定價（75% 折扣）：
+- Input: $0.435/1M tokens = ¥3.13/1M
+- Output: $0.87/1M tokens = ¥6.26/1M
+
+一集長音頻的 AI Token 成本不到 ¥0.06。真正成本是：
+- 人工編輯時間（每集 30-60 分鐘）
+- Mac 本地生成時間（每集 10-17 分鐘）
+
+### 15.4 GitHub 提交
+
+- Commit `7413629` on `codex/first-content-batch`
+- 已推送 `docs/AUDIO_PIPELINE.md` + 4 個生成腳本
+- 音頻檔案未進 Git（在 .gitignore 已排除，檔案過大）
+
+---
+
+## 16. 待辦：每日新聞雷達（Outcome Radar 自動化）
+
+### 16.1 目標
+
+自動化結合每日新聞事件，快速產出博流量的短播客/短影音，做流量入口。
+與長音頻主線並行，共用品牌調性和 TTS 引擎。
+
+### 16.2 流程
+
+```
+每日新聞 API → 過濾匹配 → DeepSeek 生成腳本 → Chatterbox 生成音頻 → 短影音導出
+```
+
+| 步驟 | 做什麼 | 工具 | 耗時 | Token 成本 |
+|---|---|---|---|---|
+| A | 拉新聞（Reuters/AP/BBC） | NewsAPI / GNews API | ~5s | 0 |
+| B | 匹配框架（5 個角度篩選） | DeepSeek V4 Pro | ~30s | ¥0.002/條 |
+| C | 生成 2-3 分鐘腳本 | DeepSeek V4 Pro | ~30s | ¥0.008/條 |
+| D | 生成音頻 | Chatterbox | ~8 分鐘 | 0 |
+| E | 導出短影音（選配） | ffmpeg + 字幕 | ~30s | 0 |
+
+### 16.3 匹配框架（5 個角度）
+
+只選符合以下任一角度的新聞：
+1. 權力失衡 — 某人/組織過度施壓後反噬
+2. 時機判斷 — 太早/太晚行動的後果
+3. 壓力暴露真相 — 壓力下某人露出真面目
+4. 局勢反轉 — 局面開始對某人不利的早期信號
+5. 結果預判 — 多數人沒看見但結果已定的局面
+
+### 16.4 待實現
+
+- [ ] 選擇並註冊新聞 API（建議 NewsAPI，5 分鐘註冊）
+- [ ] 撰寫 `scripts/outcome_radar_daily.py`（自動拉新聞 → 過濾 → 生成腳本 → 生成音頻）
+- [ ] 設定 cron / Vercel Cron 每日定時執行
+- [ ] 產出目錄：`outputs/radar/`
+
+### 16.5 預計成本
+
+| 項目 | 每天 | 每月 |
+|---|---|---|
+| 新聞 API | ¥0（免費額度） | ¥0 |
+| DeepSeek（50 條過濾 + 3 條腳本） | ¥0.12 | ¥3.60 |
+| Chatterbox 生成 | ¥0（本地 Mac） | ¥0 |
+
+### 16.6 待補充的長音頻腳本
+
+EP05-EP08 只有選題（idea），尚無英文定稿：
+- EP05: Why Pressure Exposes People
+- EP06: Burnout Means Your Strategy Is Wrong
+- EP07: How to Spot the Breaking Point Early
+- EP08: How to Read the Outcome Before Everyone Else
+
+需要用 DeepSeek 先生成英文腳本 → 編輯 → Chatterbox 生成音頻。
